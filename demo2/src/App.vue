@@ -5,22 +5,22 @@ import { RouterLink, RouterView } from 'vue-router'
 <template>
   <header>
     <h1>
-      <img class="header-image" src="../assets/headerimage.jpg">
+      <img class="header-image" src="../src/assets/headerimage.jpg">
     </h1>
       <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-        <RouterLink to="/services">Services</RouterLink>
-        <RouterLink to="/faq">Faq</RouterLink>
-        <RouterLink to="/gallery">Gallery</RouterLink>
-        <RouterLink to="/contact">Contact</RouterLink>
+        <RouterLink class="router-link" to="/">Home</RouterLink>
+        <RouterLink class="router-link" to="/about">About</RouterLink>
+        <RouterLink class="router-link" to="/services">Services</RouterLink>
+        <RouterLink class="router-link" to="/faq">Faq</RouterLink>
+        <RouterLink class="router-link" to="/gallery">Gallery</RouterLink>
+        <RouterLink class="router-link" to="/contact">Contact</RouterLink>
       </nav>
       <div>
         <a href="https://www.nationalgeographic.com/" target="_blank">
-          <v-icon name="bi-facebook" scale="2" fill="black" />
+          <v-icon name="bi-facebook" scale="1" fill="black" />
           </a>
         <a href="https://www.nationalgeographic.com/" target="_blank">
-          <v-icon name="bi-linkedin" scale="2" fill="black"/>
+          <v-icon name="bi-linkedin" scale="1" fill="black"/>
           </a>
       </div>
       <p>(420) 696-6969</p>
@@ -33,63 +33,52 @@ header {
   height: 15vh;
   width: 100%;
   display: flex;
-  flex: 1;
   flex-direction:row;
-  justify-content: start;
+  justify-content: center;
   align-items: center;
   background-color: antiquewhite;
   position: fixed;
+  font-family: sans-serif;
+  font-weight: bold;
 }
 
-
 nav {
-  width: 100%;
-  font-size: 12px;
-  text-align: center;
+  align-items: right;
+  justify-content: right;
+  display: flex;
+  margin-right: 15%;
+}
+
+.router-link {
+  margin-right: 15%;
+  align-items: bottom;
+  text-decoration: none;
+  color: #2c3d57;
+  font-size: 20px;
+}
+
+.router-link:hover {
+  color:#968b57;
 }
 
 nav a.router-link-exact-active {
-  color: var(--color-text);
+  color: #968b57;
 }
 
-nav a.router-link-exact-active:hover {
-  background-color: transparent;
+.header-image {
+  width:20%;
+  height:auto;
+  margin-left: 20%;
+  margin-top: 1%;
 }
 
-nav a {
-  display: inline-block;
-  padding: 0 1rem;
-  border-left: 1px solid var(--color-border);
+p {
+  font-size: 15px;
+  margin-right: 10%;
+}
+div {
+  display: flex;
+  flex-direction: row;
 }
 
-nav a:first-of-type {
-  border: 0;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-
-  nav {
-    text-align: left;
-    margin-left: -1rem;
-    font-size: 1rem;
-
-    padding: 1rem 0;
-    margin-top: 1rem;
-  }
-}
 </style>

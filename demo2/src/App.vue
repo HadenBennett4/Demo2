@@ -38,6 +38,7 @@ header {
   position: fixed;
   font-family: sans-serif;
   font-weight: bold;
+  z-index:1;
 }
 
 nav {

@@ -13,7 +13,7 @@ import { RouterLink, RouterView } from 'vue-router'
         <RouterLink to="/contact">Contact</RouterLink>
       </nav>
   </header>
-
+<RouterView/>
 </template>
 
 <style scoped>

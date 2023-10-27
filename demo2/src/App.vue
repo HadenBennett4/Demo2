@@ -4,6 +4,9 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <template>
   <header>
+    <h1>
+      <img class="header-image" src="../assets/headerimage.jpg">
+    </h1>
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
@@ -12,26 +15,37 @@ import { RouterLink, RouterView } from 'vue-router'
         <RouterLink to="/gallery">Gallery</RouterLink>
         <RouterLink to="/contact">Contact</RouterLink>
       </nav>
+      <div>
+        <a href="https://www.nationalgeographic.com/" target="_blank">
+          <v-icon name="bi-facebook" scale="2" fill="black" />
+          </a>
+        <a href="https://www.nationalgeographic.com/" target="_blank">
+          <v-icon name="bi-linkedin" scale="2" fill="black"/>
+          </a>
+      </div>
+      <p>(420) 696-6969</p>
   </header>
 <RouterView/>
 </template>
 
 <style scoped>
 header {
-  line-height: 1.5;
-  max-height: 100vh;
+  height: 15vh;
+  width: 100%;
+  display: flex;
+  flex: 1;
+  flex-direction:row;
+  justify-content: start;
+  align-items: center;
+  background-color: antiquewhite;
+  position: fixed;
 }
 
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
 
 nav {
   width: 100%;
   font-size: 12px;
   text-align: center;
-  margin-top: 2rem;
 }
 
 nav a.router-link-exact-active {

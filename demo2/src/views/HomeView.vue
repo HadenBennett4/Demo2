@@ -28,34 +28,69 @@
 </div-line>
 <contact>
   <con>
-    Hello
+    <circ>
+    <a href="https://www.nationalgeographic.com/" target="_blank">
+    <v-icon hover animation="float" animationSpeed="slow" name="hi-mail" scale="2" fill="white"/>
+  </a>
+</circ>
+    <mtext>
+      hello@duckweedmarketing.com
+    </mtext>
   </con>
   <con>
-    Goodbye
+    <circ>
+    <a href="https://www.nationalgeographic.com/" target="_blank">
+    <v-icon hover animation="float" animationSpeed="slow" name="bi-telephone-fill" scale="2" fill="white"/>
+    </a>
+  </circ>
+    <mtext>
+      469-7347-7027
+    </mtext>
   </con>
 </contact>
   </div>
 </template>
 
-<style scroped>
+<style scoped>
 @media (min-width: 1024px) {
-  .home {
+  mtext{
+    color: white;
+    font-size: 30px;
+    margin-left: 10px;
+  }
+  circ{
+    background-color: #2c4d57;
+    width: 70px;
+    height:70px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  con{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+    .home {
     min-height: 120vh;
     display: flex;
     flex-direction: column;
     align-items: left;
     justify-content: center;
+    position: relative;
   }
   contact{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     position: absolute;
     align-self: center;
-    bottom: -40px;
+    bottom: 25px;
     width:90%;
-    height: 30px;
+    height: 200px;
 
   }
   div-line{
@@ -65,7 +100,7 @@
     opacity: .3;
     align-self: center;
     position: absolute;
-    bottom: 15px;
+    bottom: 200px;
   }
   home-container{
     display: flex;

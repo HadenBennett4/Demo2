@@ -15,28 +15,26 @@ import { RouterLink, RouterView } from 'vue-router'
         <RouterLink class="router-link" to="/gallery">Gallery</RouterLink>
         <RouterLink class="router-link" to="/contact">Contact</RouterLink>
       </nav>
-      <div>
-        <a href="https://www.nationalgeographic.com/" target="_blank">
+        <a href="https://www.nationalgeographic.com/" target="_blank" class="icons">
           <v-icon name="bi-facebook" scale="1" fill="black" />
           </a>
-        <a href="https://www.nationalgeographic.com/" target="_blank">
+        <a href="https://www.nationalgeographic.com/" target="_blank" class="icons">
           <v-icon name="bi-linkedin" scale="1" fill="black"/>
           </a>
-      </div>
-      <p>(420) 696-6969</p>
+      <p>(420)696-6969</p>
   </header>
 <RouterView/>
 </template>
 
 <style scoped>
 header {
-  height: 15vh;
-  width: 100%;
+  height: 12vh;
+  width: 110%;
   display: flex;
   flex-direction:row;
   justify-content: center;
   align-items: center;
-  background-color: antiquewhite;
+  background-color: white;
   position: fixed;
   font-family: sans-serif;
   font-weight: bold;
@@ -46,7 +44,7 @@ nav {
   align-items: right;
   justify-content: right;
   display: flex;
-  margin-right: 15%;
+  margin-left: 10%;
 }
 
 .router-link {
@@ -66,19 +64,22 @@ nav a.router-link-exact-active {
 }
 
 .header-image {
-  width:20%;
+  width:25%;
   height:auto;
   margin-left: 20%;
   margin-top: 1%;
 }
 
 p {
-  font-size: 15px;
-  margin-right: 10%;
+  width: 100%;
+  font-size: 20px;
+  display: flex;
 }
-div {
+.icons {
   display: flex;
   flex-direction: row;
+  margin:0.3%;
 }
+
 
 </style>

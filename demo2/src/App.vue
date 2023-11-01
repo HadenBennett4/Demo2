@@ -3,6 +3,7 @@ import { RouterLink, RouterView } from 'vue-router'
 </script>
 
 <template>
+  <root>
   <header>
     <h1>
       <img class="header-image" src="../src/assets/headerimage.jpg">
@@ -24,12 +25,17 @@ import { RouterLink, RouterView } from 'vue-router'
       <p>(420)696-6969</p>
   </header>
 <RouterView/>
+</root>
 </template>
 
 <style scoped>
+@media (min-width: 1024px) {
+root{
+}
 header {
-  height: 12vh;
+  height: 150px;
   width: 110%;
+  top: 0;
   display: flex;
   flex-direction:row;
   justify-content: center;
@@ -38,7 +44,8 @@ header {
   position: fixed;
   font-family: sans-serif;
   font-weight: bold;
-  z-index:1;
+  z-index:5;
+
 }
 
 nav {
@@ -68,7 +75,6 @@ nav a.router-link-exact-active {
   width:25%;
   height:auto;
   margin-left: 20%;
-  margin-top: 1%;
 }
 
 p {
@@ -82,5 +88,5 @@ p {
   margin:0.3%;
 }
 
-
+}
 </style>

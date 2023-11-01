@@ -4,7 +4,7 @@
     </div>
   </template>
   
-  <style>
+  <style scoped>
   @media (min-width: 1024px) {
     .services {
       min-height: 100vh;

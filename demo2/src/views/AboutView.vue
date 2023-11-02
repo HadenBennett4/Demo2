@@ -8,7 +8,6 @@
     <h1>About Us</h1>
     <p>Bring you care with over 30 years of experience</p>
   </container>
-  <box1></box1>
     <box>
       <a href="https://www.nationalgeographic.com/" target="_blank" class="icons">
           <v-icon name="bi-facebook" scale="3" fill="white"/> 

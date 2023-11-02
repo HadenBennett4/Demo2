@@ -4,7 +4,7 @@
   
   <script lang="js">
   import { defineComponent } from 'vue';
-  import { Loader } from '@googlemaps/js-api-loader';
+
   
   export default defineComponent({
     name: 'GoogleMap',

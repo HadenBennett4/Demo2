@@ -25,6 +25,8 @@
     <box1>
       <box-child>
       <h2>Our Mission Statement</h2>
+      <underline></underline>
+      <br>
         <p2> Working together to create a sense of community, our dedicated and compassionate staff will strive to exceed your expections. We aim to make a difference in the lives of those we serve by providing exceptional care and services, and remembering that you are the reason we are here.</p2>
       </box-child>
       <about-image1>
@@ -37,6 +39,8 @@
     </about-image2>
       <box-child1>
         <h3>Our Vision</h3>
+        <underline2></underline2>
+        <br>
         <p3>Our strategic vision is to create and sustain a leading high-quality service that allows individuals to live as independently as possible. <br><br>
         We personalize our services to meet your situation with respect, efficiency, and compassion, fostering independence, preserving dignity and improving the quality of life. </p3>
       </box-child1>
@@ -136,9 +140,7 @@ h2 /*misson statement*/{
 font-size: 40px;
 font-weight: normal;
 color: #2c3d57;
-text-decoration: underline;
-text-decoration-thickness: 5px;
-text-decoration-color: black;
+margin-bottom:1% ;
 }
 
 p2 {
@@ -148,7 +150,10 @@ p2 {
   padding: 10%;
   padding-top: 15%;
   padding-bottom: 15%;
-  border: #2c3d57;
+  border:10px solid #2c3d57;
+  border-bottom: none;
+  border-left: none;
+  box-shadow: 0px 10px 10px 0px #888888;;
 }
 
 about-image1 {
@@ -169,15 +174,14 @@ box-child1 {
   padding-left: 5%;
   padding-right: 15%;
   margin-right: 5%;
+  padding-bottom: 10%;
 }
 
 h3 {
   font-size: 40px;
   font-weight: normal;
   color: #2c3d57;
-  text-decoration: underline;
-  text-decoration-thickness: 5px;
-  text-decoration-color: black;
+  margin-bottom: 1%;
 }
 
 p3 {
@@ -187,11 +191,16 @@ p3 {
   padding: 10%;
   padding-top: 15%;
   padding-bottom: 15%;
+  border:10px solid #2c3d57;
+  border-bottom: none;
+  border-right: none;
+  box-shadow: 5px 5px 10px#888888;
 }
 
 about-image2 {
   padding-left: 20%;
   padding-top: 8%;
+  
 }
 
 bigbox {
@@ -241,6 +250,22 @@ p4 {
   padding-bottom: 20px;
   padding-right: 40px;
 }
-
+underline {
+  width:20%;
+  border: 5px solid #000;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  color: #fbfbfc;
+}
+underline2 {
+  width:15%;
+  border: 5px solid #000;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  color: #fbfbfc;
+  
+}
 }
 </style>

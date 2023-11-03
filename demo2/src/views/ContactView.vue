@@ -61,7 +61,6 @@ export default defineComponent({
 </script>
 
 
-
 <template>
   <div class="contact">
  <contact-image>
@@ -140,7 +139,6 @@ export default defineComponent({
 
 @media (min-width: 1024px) {
   .contact{
-    min-height: 120vh;
     display: flex;
     flex-direction: column;
     padding-top: 10%;
@@ -176,6 +174,7 @@ box {
   background-color: #fbfbfc;
   padding-left: 10%;
   padding-bottom: 5%;
+  width: 91%;
 }
 
 h2{
@@ -188,7 +187,7 @@ p2 {
 
 form{
       width:40%;
-      height:100%;
+      height: auto;
       display: flex;
       flex-direction: column;
       justify-content: left;

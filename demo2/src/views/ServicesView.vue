@@ -83,6 +83,7 @@
     justify-content: center;
     align-items: center;
     padding-top: 10%;
+    color: #fbfbfc;
   }
 
 about-image {
@@ -124,7 +125,7 @@ p1 {
 }
 
 box1 {
-  width: 105%;
+  width: 100%;
   background-color: #fbfbfc;
   padding-top: 8%;
   padding-left: 5%;
@@ -132,7 +133,7 @@ box1 {
   flex-direction: row;
 }
 box4 {
-  width: 105%;
+  width: 100%;
   background-color: #fbfbfc;
   padding-top: 8%;
   padding-left: 5%;

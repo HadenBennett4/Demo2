@@ -16,12 +16,14 @@ import { RouterLink, RouterView } from 'vue-router'
         <RouterLink class="router-link" to="/gallery">Gallery</RouterLink>
         <RouterLink class="router-link" to="/contact">Contact</RouterLink>
       </nav>
+      <boxy>
         <a href="https://www.nationalgeographic.com/" target="_blank" class="icons">
           <v-icon name="bi-facebook" scale="1" fill="black" />
           </a>
         <a href="https://www.nationalgeographic.com/" target="_blank" class="icons">
           <v-icon name="bi-linkedin" scale="1" fill="black"/>
           </a>
+        </boxy>
       <p>(420)696-6969</p>
   </header>
 <RouterView/>
@@ -31,11 +33,11 @@ import { RouterLink, RouterView } from 'vue-router'
     <h2>UNITED FAMILY</h2>
     <p2>PROVIDE PERFECT CARE FOR YOUR LOVED ONE</p2>
     <tinybox>
-    <a href="https://www.nationalgeographic.com/" target="_blank" class="icons">
-          <v-icon name="bi-facebook" scale="1.5" fill="black" />
+    <a href="https://www.nationalgeographic.com/" target="_blank" class="iconic">
+          <v-icon name="bi-facebook" scale="1.5" fill="white" />
           </a>
-        <a href="https://www.nationalgeographic.com/" target="_blank" class="icons">
-          <v-icon name="bi-linkedin" scale="1.5" fill="black"/>
+        <a href="https://www.nationalgeographic.com/" target="_blank" class="iconic">
+          <v-icon name="bi-linkedin" scale="1.5" fill="white"/>
           </a></tinybox>
   </box>
   <box1>
@@ -78,7 +80,7 @@ import { RouterLink, RouterView } from 'vue-router'
 root{
 }
 header {
-  height: 150px;
+  height: 130px;
   width: 110%;
   top: 0;
   display: flex;
@@ -90,7 +92,6 @@ header {
   font-family: sans-serif;
   font-weight: bold;
   z-index:5;
-
 }
 
 nav {
@@ -117,28 +118,41 @@ nav a.router-link-exact-active {
 }
 
 .header-image {
-  width:25%;
+  width:20%;
   height:auto;
   margin-left: 20%;
 }
 
 p {
-  width: 100%;
-  font-size: 20px;
+  width: 17%;
+  font-size: 15px;
   display: flex;
+  background-color: #968b57;
+  margin-right:20%;
+  padding: 0.5%;
+  border-radius: 20px;
+  color: white;
+  justify-content: center;
 }
 .icons {
   display: flex;
   flex-direction: row;
-  margin:0.3%;
+  padding: 20%;
+}
+boxy {
+  display: flex;
+  flex-direction: row;
+  padding-left: 5%;
+  padding-right: 4%;
 }
 
 footer {
-  width: 105%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   background-color: #2c3d57;
   padding-top: 5%;
+  bottom: 0;
 }
 footer1 {
   width: 100%;
@@ -164,6 +178,9 @@ p2 {
   width: 100%;
   color:#fbfbfc;
   padding-bottom: 10%;
+}
+.iconic {
+  padding-right:5%;
 }
 tinybox {
   display: flex;
@@ -211,6 +228,7 @@ smallbox {
   padding: 1%;
   display: flex;
   flex-direction: row;
+  border-radius: 5px;
 }
 p3 {
   color: #fbfbfc;

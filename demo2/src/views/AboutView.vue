@@ -108,6 +108,7 @@ box {
   padding-left: 4%;
   margin-bottom: -60px;
   z-index:0;
+  border-radius: 10px;
 }
 
 p1 {
@@ -218,6 +219,7 @@ box3 {
   margin-bottom: 8%;
   margin-top: 8%;
   margin-left: 20%;
+  border-radius: 15px;
 }
 
 box-child2 {

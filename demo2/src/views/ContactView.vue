@@ -139,6 +139,7 @@ export default defineComponent({
 
 @media (min-width: 1024px) {
   .contact{
+    width: 100%;
     display: flex;
     flex-direction: column;
     padding-top: 10%;
@@ -265,7 +266,7 @@ form-container-child{
 
     message-container{
       width: 100%;
-      height:19%;
+      height:50%;
 
       display: flex;
       flex-direction: column;
@@ -280,6 +281,7 @@ form-container-child{
       align-items: center;
       justify-content: center;
       background-color: #2c3d57;
+      border-radius: 20px;
     }
     
     button{
@@ -296,8 +298,6 @@ form-container-child{
       opacity: .5;
     }
     #google-map{
-      width: 1000px;
-      height: 700px;
       z-index: 1;
     }
 }

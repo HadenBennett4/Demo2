@@ -11,7 +11,7 @@
     <box1>
       <box-child>
       <h2>Assisted Living</h2>
-      <p2>Our abilities vary as we become older. We’re here to find out what you want to do and to support you in achieving that goal. We’ll create a personal care plan that emphasizes your talents and offers the specific assistance you require to lead the life you desire.</p2>
+      <p2>Our abilities vary as we become older. We're here to find out what you want to do and to support you in achieving that goal. We'll create a personal care plan that emphasizes your talents and offers the specific assistance you require to lead the life you desire.</p2>
       <h6>Assisted Living Services:</h6>
       <ul class="checklist">
         <li>Assistance with hygiene and personal care</li>
@@ -261,6 +261,7 @@ box3 {
   margin-bottom: 8%;
   margin-top: 8%;
   margin-left: 20%;
+  border-radius: 15px;
 }
 
 box-child2 {

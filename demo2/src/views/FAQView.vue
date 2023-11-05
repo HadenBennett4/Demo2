@@ -128,6 +128,7 @@ box3 {
   margin-bottom: 8%;
   margin-top: 8%;
   margin-left: 20%;
+  border-radius: 15px;
 }
 
 box3-child {

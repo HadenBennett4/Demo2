@@ -62,6 +62,7 @@
 @media (min-width: 1024px) {
   .about {
     min-height: 120vh;
+    width: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -120,7 +121,7 @@ p1 {
 }
 
 box1 {
-  width: 105%;
+  width: 100%;
   background-color: #fbfbfc;
   padding-top: 8%;
   padding-left: 5%;
@@ -205,7 +206,7 @@ about-image2 {
 }
 
 bigbox {
-  width: 105%;
+  width: 100%;
   background-color: #fbfbfc;
   height: auto;
 }

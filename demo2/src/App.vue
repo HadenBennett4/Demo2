@@ -27,6 +27,7 @@ import { RouterLink, RouterView } from 'vue-router'
       <p>(420)696-6969</p>
   </header>
 <RouterView/>
+<div class="push"></div>
 <footer>
   <footer1>
   <box>
@@ -78,6 +79,9 @@ import { RouterLink, RouterView } from 'vue-router'
 <style scoped>
 @media (min-width: 1024px) {
 root{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 header {
   height: 130px;
@@ -148,10 +152,12 @@ boxy {
 
 footer {
   width: 100%;
+  height: 450px;
   display: flex;
   flex-direction: column;
   background-color: #2c3d57;
   padding-top: 5%;
+  position: relative;
   bottom: 0;
 }
 footer1 {

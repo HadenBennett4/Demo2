@@ -166,7 +166,7 @@ box2 {
   display: flex;
   flex-direction: row;
   background-color: #fbfbfc;
-  width: 105%;
+  width: 100%;
   padding-top: 8%;
 }
 

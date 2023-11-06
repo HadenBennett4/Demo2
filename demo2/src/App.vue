@@ -34,7 +34,7 @@ import { RouterLink, RouterView } from 'vue-router'
     <p2>PROVIDE PERFECT CARE FOR YOUR LOVED ONE</p2>
     <tinybox>
     <a href="https://www.nationalgeographic.com/" target="_blank" class="iconic">
-          <v-icon name="bi-facebook" scale="1.5" fill="white" />
+          <v-icon name="bi-facebook" scale="1.5" fill="white"/>
           </a>
         <a href="https://www.nationalgeographic.com/" target="_blank" class="iconic">
           <v-icon name="bi-linkedin" scale="1.5" fill="white"/>
@@ -84,7 +84,7 @@ root{
 }
 header {
   height: 130px;
-  width: 110%;
+  width: 100%;
   top: 0;
   display: flex;
   flex-direction:row;

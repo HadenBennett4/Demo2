@@ -1,14 +1,86 @@
 <template>
-    <div class="gallery">
-    </div>
+    <gallery>
+      
+      <header-text>Gallery</header-text>
+
+      <gallery-container>
+        <photo-box>
+          <img src="Gallert.jpg">
+        </photo-box>
+        <photo-box>
+          <img src="Gallert.jpg">
+        </photo-box>
+        <photo-box>
+          <img src="Gallert.jpg">
+        </photo-box>
+        <photo-box>
+          <img src="Gallert.jpg">
+        </photo-box>
+        <photo-box>
+          <img src="Gallert.jpg">
+        </photo-box>
+        <photo-box>
+          <img src="Gallert.jpg">
+        </photo-box>
+        <photo-box>
+          <img src="Gallert.jpg">
+        </photo-box>
+        <photo-box>
+          <img src="Gallert.jpg">
+        </photo-box>
+        <photo-box>
+          <img src="Gallert.jpg">
+        </photo-box>
+      </gallery-container>
+      <demo-vid>
+        <video controls>
+        <source src="video.mp4" type="video/mp4">
+          <!-- You can add additional <source> elements for different video formats here -->
+          Your browser does not support the video tag.
+        </video>
+
+      </demo-vid>
+
+    </gallery>
   </template>
   
   <style scoped>
   @media (min-width: 1024px) {
-    .gallery {
-      min-height: 100vh;
+    gallery {
+      width:100%;
       display: flex;
+      flex-direction:column;
+      justify-content: center;
       align-items: center;
+      margin-top: 10%;
+    }
+    gallery-container{
+      display: flex;
+      flex-direction:row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+
+    }
+    photo-box{
+      margin-left:20px;
+      margin-bottom: 15px;
+    }
+    header-text{
+      font-size:100px;
+      color: #968b57;
+    }
+    demo-vid{
+      width: 90%;
+      height: 400px;
+      border-color: #968b57;
+      border-style:solid;
+      margin-bottom: 20px;
+    }
+    video{
+      width:100%;
+      height: 100%;
     }
   }
   </style>

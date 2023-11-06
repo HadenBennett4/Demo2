@@ -24,10 +24,9 @@ import { RouterLink, RouterView } from 'vue-router'
           <v-icon name="bi-linkedin" scale="1" fill="black"/>
           </a>
         </boxy>
-      <p>(420)696-6969</p>
+      <p>(420) 696-6969</p>
   </header>
 <RouterView/>
-<div class="push"></div>
 <footer>
   <footer1>
   <box>
@@ -61,17 +60,17 @@ import { RouterLink, RouterView } from 'vue-router'
    <h4>Get in Touch</h4>
    <smallbox>
    <v-icon hover animation="float" animationSpeed="slow" name="bi-telephone-fill" scale="1.5" fill="white" class="icon"/>
-   <p3>(696)-420-6969</p3>
+   <p3>(696) 420-6969</p3>
   </smallbox>
   <br>
   <smallbox>
-   <v-icon hover animation="float" animationSpeed="slow" name="hi-mail" scale="1.5" fill="white" class="icony"/>
+   <v-icon style="margin-left:10px" hover animation="float" animationSpeed="slow" name="hi-mail" scale="1.5" fill="white" class="icony"/>
    <p3>hello@duckweedmarketing.com</p3>
   </smallbox>
   </box2>
   </footer1>
   <hr class="page-break-line">
-  <p4>Website produced and powered by Duckweed Marketing 2023</p4>
+  <p4 >Website produced and powered by Duckweed Marketing 2023</p4>
 </footer>
 </root>
 </template>
@@ -128,7 +127,8 @@ nav a.router-link-exact-active {
 }
 
 p {
-  width: 17%;
+  width: 40%;
+  height: 20%;
   font-size: 15px;
   display: flex;
   background-color: #968b57;
@@ -137,6 +137,7 @@ p {
   border-radius: 20px;
   color: white;
   justify-content: center;
+  align-items: center;
 }
 .icons {
   display: flex;
@@ -155,6 +156,8 @@ footer {
   height: 450px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: #2c3d57;
   padding-top: 5%;
   position: relative;
@@ -230,10 +233,12 @@ h4 {
 }
 smallbox {
   background-color: #293241;
-  width: 55%;
-  padding: 1%;
+  width: 80%;
+  height: 20%;
   display: flex;
   flex-direction: row;
+  justify-content: start;
+  align-items: center;
   border-radius: 5px;
 }
 p3 {
@@ -246,7 +251,6 @@ p3 {
 }
 .page-break-line {
   width: 80%;
-  margin-top: -10%;
 }
 p4 {
   color: #fbfbfc;

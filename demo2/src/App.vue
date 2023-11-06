@@ -53,7 +53,7 @@ import { RouterLink, RouterView } from 'vue-router'
   <nav1>
     <RouterLink class="routerlink" to="/about">About</RouterLink>
     <RouterLink class="routerlink" to="/faq">Faq</RouterLink>
-    <RouterLink class="routerlink" to="/contact">Contact</RouterLink>
+    <RouterLink class="router-link" to="/contact">Contact</RouterLink>
   </nav1>
   </box3>
   <box2>
@@ -94,7 +94,7 @@ header {
   position: fixed;
   font-family: sans-serif;
   font-weight: bold;
-  z-index:5;
+  z-index:2;
 }
 
 nav {

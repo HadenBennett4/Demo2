@@ -1,6 +1,8 @@
 <script>
+const WEB3FORMS_ACCESS_KEY = "88af7c4b-f36a-4f79-a8ae-b8b6c2f053b4";
 import { defineComponent } from 'vue';
 import GoogleMap from '../componets/GoogleMap.vue'
+
 export default defineComponent({
   components:{
     GoogleMap,
@@ -77,7 +79,7 @@ export default defineComponent({
         <a href="https://www.nationalgeographic.com/" target="_blank" class="icons">
           <v-icon hover animation="float" animationSpeed="slow" name="bi-telephone-fill" scale="3" fill="white"/>
           </a>
-          <p1>(469)207-6194</p1>
+          <p1>(469) 207-6194</p1>
     </box2>
 </container>
 <box>
@@ -85,6 +87,7 @@ export default defineComponent({
   <h2>Send Us a Message</h2>
   <p2>Please feel free to send us a message if you would like to inquire more about our services, referrals, or about job oppurtunities.</p2>
 </box1>
+<form-container>
   <form @submit.prevent="submitForm">
           <form-container>
             <form-container-child>
@@ -128,8 +131,11 @@ export default defineComponent({
           <div>
             <div v-if="showMessage" class="success-message">{{ successMessage }}</div>
           </div>
+
         </form>
         <GoogleMap/>
+</form-container>
+  
 </box>
   </div>
 </template>
@@ -143,8 +149,14 @@ export default defineComponent({
     display: flex;
     flex-direction: column;
     padding-top: 10%;
+    z-index:0;
   }
-
+form-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
 contact-image {
     top:0;
     width:100%;
@@ -298,7 +310,9 @@ form-container-child{
       opacity: .5;
     }
     #google-map{
-      z-index: 1;
+      width:400px;
+      height:400px;
+      margin-right: 100px;
     }
 }
 </style>

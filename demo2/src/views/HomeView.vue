@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <home-image>
-      <img src="Main.jpg"/>
+      <img src="stock6.jpg"/>
     </home-image>
     <home-container>
     <header-text>

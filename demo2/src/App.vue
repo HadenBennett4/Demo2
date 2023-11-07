@@ -84,7 +84,7 @@ root{
   margin:0;
 }
 header {
-  height: 130px;
+  height: 110px;
   width: 100%;
   top: 0;
   display: flex;
@@ -153,7 +153,7 @@ boxy {
 }
 
 footer {
-  width: 100.95%;
+  width: 100.98%;
   height: 450px;
   display: flex;
   flex-direction: column;

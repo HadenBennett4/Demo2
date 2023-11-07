@@ -66,8 +66,8 @@ function navigateToServices(){
     <block1-text>
       Why  choose us?
     </block1-text>
+    <underline2></underline2>
   </block1-text-box>
-
   <block1-paragraph-box>
    <div style="padding:2%;align-self: center;">United Family is guided by more than 30 years of experience and a continuous commitment to providing seniors with the care they deserve. We are pleased to serve the lovely city of Forney, Texas, and the surrounding areas with top-notch assisted living and short-term care services.</div> 
   </block1-paragraph-box>
@@ -97,24 +97,88 @@ function navigateToServices(){
     </RouterLink>
     <RouterLink class="block3-button" to="/services">
       <v-icon hover animation="float" animationSpeed="slow" name="hi-mail" scale="3" />
-      Assisted Living
+      Respite Care
     </RouterLink>
     <RouterLink class="block3-button" to="/services">
       <v-icon hover animation="float" animationSpeed="slow" name="hi-mail" scale="3" />
-      Assisted Living
+      Independent Caregivers
     </RouterLink>
-
   </block3-container>
 </block3>
 <block4>
-
+<block4-header>We believe and operate our agency with...</block4-header>
+<underline>bbbbbbbbb</underline>
+<block4-container>
+<block4-containerbaby>
+<block4-bheader>Excellence</block4-bheader>
+<br>
+<br>
+<block4-p>Providing the highest quality in the respite care services that we deliver to meet and exceed the needs of our clients.</block4-p>
+<br>
+<br>
+<br>
+<br>
+<block4-bheader>Integrity</block4-bheader>
+<br>
+<br>
+<block4-p>The assurance that all of our dealings with clients and their families, physicians, and others with whom we do business will be filled with respect, fairness and honesty.</block4-p>
+<br>
+<br>
+<br>
+<br>
+<block4-bheader>Service</block4-bheader>
+<br>
+<br>
+<block4-p>A pledge to offer appropriate care service to all persons, regardless of socioeconomic status, race or religion.</block4-p>
+</block4-containerbaby>
+<block4-containerbaby>
+<block4-bheader>Flexibility</block4-bheader>
+<br>
+<br>
+<block4-p>Penness to the change that accompanies the exploration of new ways to deliver care to our clients.</block4-p>
+<br>
+<br>
+<br>
+<br>
+<block4-bheader>Responsiveness</block4-bheader>
+<br>
+<br>
+<block4-p>A commitment to work with others to identify the care requirements and needs of our community and to strive to meet these needs.</block4-p>
+</block4-containerbaby>
+</block4-container>
 </block4>
+
 <block5>
-
+<block5-container>
+  <block5-header>Know More About United Family</block5-header>
+  <RouterLink class="router-link" to="/gallery">Explore Our Full Gallery!</RouterLink>
+  <photo-container>
+        <photo-box>
+          <img src="Gallert.jpg" style="width: 300px;">
+        </photo-box>
+        <photo-box>
+          <img src="Gallert.jpg" style="width: 300px;">
+        </photo-box>
+      </photo-container>
+      <photo-container>
+        <photo-box>
+          <img src="Gallert.jpg" style="width: 300px;">
+        </photo-box>
+        <photo-box>
+          <img src="Gallert.jpg" style="width: 300px;">
+        </photo-box>
+      </photo-container>
+</block5-container>
 </block5>
-<block6>
-
-</block6>
+<bigbox>
+    <box3>
+      <box-child2>
+      <h4>Contact Us Today</h4>
+      <p4>Reach out to us so we can provide you with the exceptional care that you deserve!</p4>
+    </box-child2>
+      <RouterLink class="routerlink" to="/contact">Get in Touch</RouterLink>
+    </box3>
+</bigbox>
 
   </div>
 </template>
@@ -127,7 +191,7 @@ function navigateToServices(){
     margin-left: 10px;
   }
   circ{
-    background-color: #2c4d57;
+    background-color: #2c3d57;
     width: 70px;
     height:70px;
     border-radius: 100%;
@@ -208,7 +272,7 @@ function navigateToServices(){
     height: 50px;
     border-radius: 10px;
     margin-right: 1%;
-    background-color: #2c4d57;
+    background-color: #2c3d57;
   }
   but:hover{
     background-color: #968b57;
@@ -232,9 +296,9 @@ function navigateToServices(){
     filter:  brightness(70%);
   }
   block1{
-    width:103%;
+    width:100.98%;
     height: 300px;
-    background-color: rgb(241, 241, 241);
+    background-color: #e7e9ef;
 
 
     display: flex;
@@ -243,41 +307,43 @@ function navigateToServices(){
     align-items: center;
   }
   block2{
-    width:103%;
+    width:100.98%;
     height: 800px;
-    background-color:rgb(236, 227, 227);
+    background-color:#fbfbfc;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    padding-top: 2%;
   }
   block2-image{
     width:33%;
+    margin-left: 5%;
   }
   block2-text-box{
-    width: 35%;
-    height: 75%;
+    width: 30%;
+    padding: 1%;
     background-color: white;
     border-top-style: solid;
     border-right-style:solid;
     border-top-width:10px;
     border-right-width:10px;
-    border-top-color:#2c4d57;
-    border-right-color:#2c4d57;
-    font-size:25px;
-    color:#2c4d57;
-    box-shadow: 0px 10px 10px 0px #888888;
-    line-height: 140%;
+    border-top-color:#2c3d57;
+    border-right-color:#2c3d57;
+    font-size:18px;
+    color:#2c3d57;
+    box-shadow: -5px 10px 10px #888888;
+    line-height: 155%;
     
   }
   block3{
-    width: 103%;
+    width: 100.98%;
     height:600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    background-color: #fbfbfc;
   }
   block3-header{
     font-size:75px;
@@ -285,24 +351,20 @@ function navigateToServices(){
     margin-bottom:20px;
   }
   block3-container{
-    width: 90%;
+    width: 75%;
     height: 40%;
-
     display: flex;
     flex-direction: row;
     justify-content: space-evenly ;
     align-items: center;
   }
   .block3-button{
-    width:30%;
+    width:25%;
     height: 70%;
-
     border-style: solid;
     border-width:1px;
     border-color: #dfdfdf;
-    border-opacity:.5;
     border-radius: 5%;
-
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -312,41 +374,166 @@ function navigateToServices(){
     font-size: 25px;
   }
   .block3-button:hover{
-    background-color:#2c4d57;
+    background-color:#2c3d57;
     border-width:0px;
     color:white;
   }
 
   block4{
-
+    background-color: #fbfbfc;
+    display: flex;
+    flex-direction: column;
+    width: 100.98%;
+    align-items: center;
+  }
+  block4-header {
+    font-size: 40px;
+    color: #2c3d57;
+  }
+  underline {
+    color: #fbfbfc;
+    border: 5px solid #000;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+  }
+  block4-container {
+    justify-content: center;
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+  }
+  block4-containerbaby{
+    width: 50%;
+    margin: 5%;
+  }
+  block4-bheader{
+    font-size: 25px;
+    color:#968b57;
+    font-weight: bold;
+  }
+  block4-p {
+    font-size: 20px;
+    color: #475671;
   }
   block5{
-
+    background-color: #fbfbfc;
+    display: flex;
+    flex-direction: column;
+    width: 100.98%;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5%;
   }
-  block6{
-
+  block5-container {
+    width:75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding-bottom: 2%;
+    padding-top: 5%;
   }
+
+  block5-header {
+    font-size: 35px;
+    color:#2c3d57;
+  }
+  .router-link {
+    background-color: #2c3d57;
+    text-decoration: none;
+    color: white;
+    padding: 1%;
+    margin-bottom: 5%;
+    margin-top: 3%;
+  }
+  photo-container {
+    display: flex;
+    flex-direction: row;
+  }
+  photo-box {
+    padding: 1%;
+  }
+  bigbox {
+  width: 100.98%;
+  background-color: #fbfbfc;
+  height: auto;
+}
+
+box3 {
+  width: 65%;
+  background-color: #968b57;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  margin-bottom: 8%;
+  margin-top: 8%;
+  margin-left: 20%;
+  border-radius: 15px;
+}
+
+box-child2 {
+  padding-left: 13%;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding-bottom: 5%;
+}
+
+h4 {
+  font-size: 40px;
+}
+
+p4 {
+  font-size: 20px;
+}
+
+.routerlink{
+  margin-top: 10%;
+  margin-left: 7%;
+  text-decoration: none;
+  background-color: #2c3d57;
+  margin-bottom: auto;
+  color: white;
+  font-size: 20px;
+  align-items: center;
+  padding-top: 15px;
+  padding-left: 30px;
+  padding-bottom: 15px;
+  padding-right: 30px;
+}
   block7{
     display:flex;
     flex-direction: column;
     justify-content: start;
     align-items: start;
     width: 90%;
+    
   }
   block1-paragraph-box{
-    width:48%;
+    width:40%;
     height:90%;
-    background-color:rgb(235, 235, 235);
-    font-size: 30px;
-    color:#2c4d57;
+    font-size: 20px;
+    color:#2c3d57;
+    padding-top: 3%;
+    line-height: 2;
+    padding-right:5%;
   }
   block1-text-box{
     width:48%;
     height:90%; 
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: start;
     align-items: start;
+  }
+  underline2 {
+    border: 5px solid #000;
+    width: 20%;
+    border-bottom: none;
+    margin-left: 5%;
+    margin-top: 1%;
   }
   block1-text{
     font-size:60px;

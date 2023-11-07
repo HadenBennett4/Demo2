@@ -52,7 +52,7 @@
       flex-direction:column;
       justify-content: center;
       align-items: center;
-      margin-top: 10%;
+      margin-top: 7%;
     }
     gallery-container{
       display: flex;
@@ -70,6 +70,7 @@
     header-text{
       font-size:100px;
       color: #968b57;
+      margin-bottom: 5px;
     }
     demo-vid{
       width: 90%;

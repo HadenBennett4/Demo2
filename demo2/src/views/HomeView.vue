@@ -1,11 +1,12 @@
 <template>
-  <div class="home">
-    <home-image>
-      <img src="Main.jpg"/>
+      <home-image>
+      <img src="stock6.jpg"/>
     </home-image>
+  <div class="home">
+
     <home-container>
     <header-text>
-      UNITED FAMILY
+      UNITED<br> FAMILY
     </header-text>
     <sub-header-text>
       PERFECT PLACE FOR YOUR LOVED ONE
@@ -23,9 +24,8 @@
       </but2>
     </button-container>
   </home-container>
-<div-line>
-
-</div-line>
+  <block7>
+    <div-line></div-line>
 <contact>
   <con>
     <circ>
@@ -48,6 +48,38 @@
     </mtext>
   </con>
 </contact>
+  </block7>
+
+
+
+
+<block1>
+  <block1-text-box>
+    <block1-text>
+      Why choose us?
+    </block1-text>
+  </block1-text-box>
+
+  <block1-paragraph-box>
+   <div style="padding:2%;align-self: center;">United Family is guided by more than 30 years of experience and a continuous commitment to providing seniors with the care they deserve. We are pleased to serve the lovely city of Forney, Texas, and the surrounding areas with top-notch assisted living and short-term care services.</div> 
+  </block1-paragraph-box>
+</block1>
+<block2>
+
+</block2>
+<block3>
+
+</block3>
+<block4>
+
+</block4>
+<block5>
+
+</block5>
+<block6>
+
+</block6>
+
   </div>
 </template>
 
@@ -77,16 +109,15 @@
     min-height: 120vh;
     display: flex;
     flex-direction: column;
-    align-items: left;
+    align-items: center;
     justify-content: center;
-    position: relative;
+    width: 100%;  
   }
   contact{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    position: absolute;
     align-self: center;
     bottom: 25px;
     width:90%;
@@ -97,18 +128,19 @@
     width: 90%;
     height:1px;
     background-color: white;
-    opacity: .3;
+    opacity: .5;
     align-self: center;
-    position: absolute;
     bottom: 200px;
+    margin-top:160px;
   }
   home-container{
     display: flex;
     flex-direction: column;
     justify-content: left;
-    align-items: center;
-    width: 600px;
-    text-align: center;
+    align-items: left;
+    width: 90%;
+    text-align: left;
+    margin-top:200px;
   }
   header-text{
     font-size:100px;
@@ -156,14 +188,67 @@
   }
   home-image{
     width: 100%;
-    height: 120%;
     position:fixed;
     z-index:-1;
-    margin-top: 10%;
   }
   img{
     width: 100%;
     filter:  brightness(70%);
+  }
+  block1{
+    width:103%;
+    height: 300px;
+    background-color: rgb(241, 241, 241);
+
+
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+  }
+  block2{
+    width:103%;
+    height: 500px;
+    background-color:white;
+  }
+  block3{
+
+  }
+  block4{
+
+  }
+  block5{
+
+  }
+  block6{
+
+  }
+  block7{
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 90%;
+  }
+  block1-paragraph-box{
+    width:48%;
+    height:90%;
+    background-color:rgb(235, 235, 235);
+    font-size: 30px;
+    color:#2c4d57;
+  }
+  block1-text-box{
+    width:48%;
+    height:90%; 
+    display:flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+  }
+  block1-text{
+    font-size:60px;
+    color:#968b57;
+    margin-left:10px;
   }
 }
 </style>

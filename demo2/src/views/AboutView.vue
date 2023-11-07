@@ -2,7 +2,7 @@
     
   <div class="about">
  <about-image>
-      <img src="image6.jpg" class="aboutimg"/>
+      <img src="stock2.jpg" class="aboutimg"/>
     </about-image>
   <container>
     <h1>About Us</h1>
@@ -81,6 +81,7 @@ about-image {
 }
 .aboutimg {
   width:100%;
+  filter:brightness(70%);
 }
 
 container{

@@ -1,7 +1,7 @@
 <template>
     <div class="faq">
       <about-image>
-      <img src="image6.jpg" class="aboutimg"/>
+      <img src="stock4.jpg" class="aboutimg"/>
     </about-image>
     <box>
       <h1>Frequently Asked Questions</h1>
@@ -57,6 +57,7 @@
 }
 .aboutimg {
   width:100%;
+  filter: brightness(65%);
 }
 box {
   font-size: 30px;

@@ -229,7 +229,7 @@ box {
   margin-top: 10%;
 }
 box1 {
-  width:90%;
+  width:80%;
   background-color: rgb(241, 241, 241);
   display: flex;
   flex-direction: row;

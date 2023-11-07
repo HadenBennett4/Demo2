@@ -48,6 +48,28 @@
     </mtext>
   </con>
 </contact>
+
+
+
+<block1>
+
+</block1>
+<block2>
+
+</block2>
+<block3>
+
+</block3>
+<block4>
+
+</block4>
+<block5>
+
+</block5>
+<block6>
+
+</block6>
+
   </div>
 </template>
 
@@ -164,6 +186,26 @@
   img{
     width: 100%;
     filter:  brightness(70%);
+  }
+  block1{
+    width:100%;
+    height: 200px;
+    background-color: beige;
+  }
+  block2{
+
+  }
+  block3{
+
+  }
+  block4{
+
+  }
+  block5{
+
+  }
+  block6{
+
   }
 }
 </style>

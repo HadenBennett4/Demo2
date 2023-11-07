@@ -56,12 +56,12 @@
 <block1>
   <block1-text-box>
     <block1-text>
-
+      Why choose us?
     </block1-text>
   </block1-text-box>
 
   <block1-paragraph-box>
-
+   <div style="padding:2%;align-self: center;">United Family is guided by more than 30 years of experience and a continuous commitment to providing seniors with the care they deserve. We are pleased to serve the lovely city of Forney, Texas, and the surrounding areas with top-notch assisted living and short-term care services.</div> 
   </block1-paragraph-box>
 </block1>
 <block2>
@@ -198,7 +198,8 @@
   block1{
     width:103%;
     height: 300px;
-    background-color: lightgray;
+    background-color: rgb(241, 241, 241);
+
 
     display: flex;
     flex-direction:row;
@@ -230,13 +231,24 @@
     width: 90%;
   }
   block1-paragraph-box{
-    
+    width:48%;
+    height:90%;
+    background-color:rgb(235, 235, 235);
+    font-size: 30px;
+    color:#2c4d57;
   }
   block1-text-box{
-
+    width:48%;
+    height:90%; 
+    display:flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
   }
   block1-text{
-
+    font-size:60px;
+    color:#968b57;
+    margin-left:10px;
   }
 }
 </style>

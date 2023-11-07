@@ -7,10 +7,11 @@ import { BiFacebook } from "oh-vue-icons/icons";
 import { BiLinkedin } from "oh-vue-icons/icons";
 import { HiMail } from "oh-vue-icons/icons";
 import { BiTelephoneFill } from "oh-vue-icons/icons";
+import { HiSolidChevronDown } from "oh-vue-icons/icons"
 
 const app = createApp(App)
 
-addIcons(BiFacebook, BiLinkedin,HiMail,BiTelephoneFill);
+addIcons(BiFacebook, BiLinkedin,HiMail,BiTelephoneFill,HiSolidChevronDown);
 
 app.use(router)
 app.component("v-icon", OhVueIcon);

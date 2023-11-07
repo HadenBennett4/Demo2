@@ -1,3 +1,17 @@
+<script setup>
+import { ref } from 'vue';
+const show = ref(false);
+const index = ref(0);
+function changeShow(i){
+  if(i === this.index){
+    this.show=!this.show;
+  }else{
+    this.show = true;
+    this.index=i
+  }
+}
+</script>
+
 <template>
     <div class="faq">
       <about-image>
@@ -5,25 +19,159 @@
     </about-image>
     <box>
       <h1>Frequently Asked Questions</h1>
-      </box>
+    </box>
+    <container>
       <box1>
         <box-child>
         <h2>Questions?</h2>
-        <underline>bbbbbbbbbbbbbb</underline>
+        <underline></underline>
         <br>
-        <img src="faq.jpg" style="width:750px" class="faqimg">
+        <img src="faq.jpg" class="faqimg">
       </box-child>
-      <pp>FAQ PORTION</pp>
+      <faq-block>
+
+        <question-block @click="changeShow(1)">
+          <question-text>
+            This is a question?
+          </question-text>
+          <v-icon v-if="show===true && index===1" flip="vertical" class="question-icon" name="hi-solid-chevron-down" scale="1.5"/>
+          <v-icon  v-else class="question-icon" name="hi-solid-chevron-down" scale="1.5"/>
+        </question-block>
+        <answer-block v-if="show===true && index===1">
+          This is the answer to your queestion.I dont know why this shit needs to be so long but fuck it
+          Im going to purposfully write more becuase i have to 
+        </answer-block>
+
+        <question-block @click="changeShow(2)">
+          <question-text>
+            This is a question?
+          </question-text>
+          <v-icon v-if="show===true && index===2" flip="vertical" class="question-icon" name="hi-solid-chevron-down" scale="1.5"/>
+          <v-icon  v-else class="question-icon" name="hi-solid-chevron-down" scale="1.5"/>
+        </question-block>
+        <answer-block v-if="show===true && index===2">
+          This is the answer to your queestion.I dont know why this shit needs to be so long but fuck it
+          Im going to purposfully write more becuase i have to 
+        </answer-block>
+
+        <question-block @click="changeShow(5)">
+          <question-text>
+            This is a question?
+          </question-text>
+          <v-icon v-if="show===true && index===5" flip="vertical" class="question-icon" name="hi-solid-chevron-down" scale="1.5"/>
+          <v-icon  v-else class="question-icon" name="hi-solid-chevron-down" scale="1.5"/>
+        </question-block>
+        <answer-block v-if="show===true && index===5">
+          This is the answer to your queestion.I dont know why this shit needs to be so long but fuck it
+          Im going to purposfully write more becuase i have to 
+        </answer-block>
+
+        <question-block @click="changeShow(3)">
+          <question-text>
+            This is a question?
+          </question-text>
+          <v-icon v-if="show===true && index===3" flip="vertical" class="question-icon" name="hi-solid-chevron-down" scale="1.5"/>
+          <v-icon  v-else class="question-icon" name="hi-solid-chevron-down" scale="1.5"/>
+        </question-block>
+        <answer-block v-if="show===true && index===3">
+          This is the answer to your queestion.I dont know why this shit needs to be so long but fuck it
+          Im going to purposfully write more becuase i have to 
+        </answer-block>
+
+        <question-block @click="changeShow(4)">
+          <question-text>
+            This is a question?
+          </question-text>
+          <v-icon v-if="show===true && index===4" flip="vertical" class="question-icon" name="hi-solid-chevron-down" scale="1.5"/>
+          <v-icon  v-else class="question-icon" name="hi-solid-chevron-down" scale="1.5"/>
+        </question-block>
+        <answer-block v-if="show===true && index===4">
+          This is the answer to your queestion.I dont know why this shit needs to be so long but fuck it
+          Im going to purposfully write more becuase i have to 
+        </answer-block> 
+
+
+
+
+
+
+      </faq-block>
+
       </box1>
-      <box2>
-        <pp>FAQ PORTION</pp>
-        <box2-child>
+    </container>
+    <container>
+
+
+      <box1>
+        <faq-block>
+          
+          <question-block @click="changeShow(6)">
+          <question-text>
+            This is a question?
+          </question-text>
+          <v-icon v-if="show===true && index===6" flip="vertical" class="question-icon" name="hi-solid-chevron-down" scale="1.5"/>
+          <v-icon  v-else class="question-icon" name="hi-solid-chevron-down" scale="1.5"/>
+        </question-block>
+        <answer-block v-if="show===true && index===6">
+          This is the answer to your queestion.I dont know why this shit needs to be so long but fuck it
+          Im going to purposfully write more becuase i have to 
+        </answer-block>
+        <question-block @click="changeShow(7)">
+          <question-text>
+            This is a question?
+          </question-text>
+          <v-icon v-if="show===true && index===7" flip="vertical" class="question-icon" name="hi-solid-chevron-down" scale="1.5"/>
+          <v-icon  v-else class="question-icon" name="hi-solid-chevron-down" scale="1.5"/>
+        </question-block>
+        <answer-block v-if="show===true && index===7">
+          This is the answer to your queestion.I dont know why this shit needs to be so long but fuck it
+          Im going to purposfully write more becuase i have to 
+        </answer-block>
+        <question-block @click="changeShow(8)">
+          <question-text>
+            This is a question?
+          </question-text>
+          <v-icon v-if="show===true && index===8" flip="vertical" class="question-icon" name="hi-solid-chevron-down" scale="1.5"/>
+          <v-icon  v-else class="question-icon" name="hi-solid-chevron-down" scale="1.5"/>
+        </question-block>
+        <answer-block v-if="show===true && index===8">
+          This is the answer to your queestion.I dont know why this shit needs to be so long but fuck it
+          Im going to purposfully write more becuase i have to 
+        </answer-block>
+        <question-block @click="changeShow(9)">
+          <question-text>
+            This is a question?
+          </question-text>
+          <v-icon v-if="show===true && index===9" flip="vertical" class="question-icon" name="hi-solid-chevron-down" scale="1.5"/>
+          <v-icon  v-else class="question-icon" name="hi-solid-chevron-down" scale="1.5"/>
+        </question-block>
+        <answer-block v-if="show===true && index===9">
+          This is the answer to your queestion.I dont know why this shit needs to be so long but fuck it
+          Im going to purposfully write more becuase i have to 
+        </answer-block>
+        <question-block @click="changeShow(10)">
+          <question-text>
+            This is a question?
+          </question-text>
+          <v-icon v-if="show===true && index===10" flip="vertical" class="question-icon" name="hi-solid-chevron-down" scale="1.5"/>
+          <v-icon  v-else class="question-icon" name="hi-solid-chevron-down" scale="1.5"/>
+        </question-block>
+        <answer-block v-if="show===true && index===10">
+          This is the answer to your queestion.I dont know why this shit needs to be so long but fuck it
+          Im going to purposfully write more becuase i have to 
+        </answer-block>
+
+        </faq-block>
+
+        <box-child>
           <h3>About Covid-19 Precautions</h3>
           <underline2>bbbbbbbbbbbbbb</underline2>
           <br>
-          <img src="faq2.jpg" style="width:750px">
-          </box2-child>
-      </box2>
+          <img src="faq2.jpg" style="width:600px">
+          </box-child>
+
+      </box1>
+    </container> 
       <bigbox>
     <box3>
       <box3-child>
@@ -32,6 +180,7 @@
     </box3-child>
       <RouterLink class="router-link" to="/contact">CONTACT US</RouterLink>
     </box3></bigbox>
+ 
     </div>
   </template>
   
@@ -55,25 +204,41 @@
     z-index:-1;
     margin-top: 8%;
 }
+.faqimg{
+  width:600px;
+}
 .aboutimg {
   width:100%;
   filter: brightness(65%);
 }
+container{
+  width:103%;
+  background-color: rgb(241, 241, 241);
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 box {
   font-size: 30px;
-  margin-top: 5%;
-}
-box1 {
-  width:100.9%;
-  background-color: #fbfbfc;
-  display: flex;
-  flex-direction: row;
+  width:100%;
+  height: 200px;
+  text-align: center;
   margin-top: 10%;
 }
+box1 {
+  width:90%;
+  background-color: rgb(241, 241, 241);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 50px;
+
+}
 box-child {
-  width: 50%;
-  padding-left: 10%;
-  padding-top: 5%;
+  width: 45%; 
 }
 h2 {
  color: #968b57;
@@ -160,6 +325,42 @@ p4 {
   padding-left: 40px;
   padding-bottom: 20px;
   padding-right: 40px;
+}
+
+faq-block{
+  width: 45%; 
+  display: flex;
+  flex-direction:column;
+}
+question-block{
+  width:600px;
+  height: 75px;
+  background-color:white;
+  border-radius: 1%;
+
+
+  color:#2c3d57;  
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom:25px;
+}
+question-text{
+  margin-left: 15px;
+  font-size:40px;
+
+}
+.question-icon{
+  margin-right:15px;
+}
+answer-block{
+  width:90%;
+  text-align: left;
+  height:150px;
+  color:#2c3d57;
+  font-size: 20px;
+  align-self: center;
 }
   }
   </style>

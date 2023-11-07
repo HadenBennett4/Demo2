@@ -312,7 +312,7 @@ form-container-child{
     #google-map{
       width:400px;
       height:400px;
-      margin-right: 100px;
+      margin-right: 200px;
     }
 }
 </style>

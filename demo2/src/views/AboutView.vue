@@ -69,6 +69,7 @@
     justify-content: center;
     align-items: center;
     padding-top: 10%;
+    margin: 0;
   }
 
 about-image {

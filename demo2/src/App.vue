@@ -81,6 +81,7 @@ root{
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  margin:0;
 }
 header {
   height: 130px;

@@ -66,7 +66,7 @@ export default defineComponent({
 <template>
   <div class="contact">
  <contact-image>
-      <img src="contact.jpg"  style="filter: brightness(60%);"/>
+      <img src="contact.jpg" class="contactimg"  style="filter: brightness(60%);"/>
     </contact-image>
   <container>
     <h1>Contact Us</h1>
@@ -151,6 +151,9 @@ export default defineComponent({
     padding-top: 10%;
     z-index:0;
   }
+  .contactimg {
+    width: 100%;
+  }
 form-container{
   display: flex;
   flex-direction: row;
@@ -159,7 +162,6 @@ form-container{
 }
 contact-image {
     top:0;
-    width:100%;
     position:fixed;
     z-index:-1;
     margin-top: 8%;
@@ -182,20 +184,35 @@ p {
   width: 50%;
   margin-left: 40%;
 }
+p1 {
+  font-size: 20px;
+  padding-left: 1%;
+}
+.icons {
+  margin-left: 10%;
+}
+box2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10%;
+}
 
 box {
   background-color: #fbfbfc;
-  padding-left: 10%;
   padding-bottom: 5%;
-  width: 91%;
+  width: 100.45%;
 }
 
 h2{
   color: #968b57;
   font-size: 50px;
+  padding-left: 10%;
 }
 p2 {
   font-size: 15px;
+  padding-left: 10%;
 }
 
 form{
@@ -207,6 +224,7 @@ form{
       align-items: left;
       background-color: #fbfbfc;
       padding-top: 5%;
+      padding-left: 10%;
     }
 
 form-container-child{
@@ -312,7 +330,7 @@ form-container-child{
     #google-map{
       width:400px;
       height:400px;
-      margin-right: 100px;
+      margin-right: 200px;
     }
 }
 </style>

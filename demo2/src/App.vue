@@ -81,6 +81,7 @@ root{
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  margin:0;
 }
 header {
   height: 130px;
@@ -152,7 +153,7 @@ boxy {
 }
 
 footer {
-  width: 100%;
+  width: 100.95%;
   height: 450px;
   display: flex;
   flex-direction: column;
@@ -162,6 +163,9 @@ footer {
   padding-top: 5%;
   position: relative;
   bottom: 0;
+  margin-left:-0.5%;
+  margin-bottom: -0.5%;
+  
 }
 footer1 {
   width: 100%;

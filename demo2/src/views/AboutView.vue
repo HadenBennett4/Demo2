@@ -123,10 +123,9 @@ p1 {
 }
 
 box1 {
-  width: 100%;
+  width: 100.9%;
   background-color: #fbfbfc;
   padding-top: 8%;
-  padding-left: 5%;
   display: flex;
   flex-direction: row;
 }
@@ -168,7 +167,7 @@ box2 {
   display: flex;
   flex-direction: row;
   background-color: #fbfbfc;
-  width: 100%;
+  width: 100.9%;
   padding-top: 8%;
 }
 
@@ -208,7 +207,7 @@ about-image2 {
 }
 
 bigbox {
-  width: 100%;
+  width: 100.9%;
   background-color: #fbfbfc;
   height: auto;
 }

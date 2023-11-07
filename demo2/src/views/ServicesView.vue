@@ -77,6 +77,7 @@
 @media (min-width: 1024px) {
   .Services {
     min-height: 120vh;
+    width: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -126,18 +127,16 @@ p1 {
 }
 
 box1 {
-  width: 100%;
+  width: 100.9%;
   background-color: #fbfbfc;
   padding-top: 8%;
-  padding-left: 5%;
   display: flex;
   flex-direction: row;
 }
 box4 {
-  width: 100%;
+  width: 100.9%;
   background-color: #fbfbfc;
   padding-top: 8%;
-  padding-left: 5%;
   display: flex;
   flex-direction: row;
 }
@@ -210,7 +209,7 @@ box2 {
   display: flex;
   flex-direction: row;
   background-color: #fbfbfc;
-  width: 105%;
+  width: 100.9%;
   padding-top: 0%;
 }
 
@@ -248,7 +247,7 @@ about-image2 {
 }
 
 bigbox {
-  width: 105%;
+  width: 100.9%;
   background-color: #fbfbfc;
   height: auto;
 }

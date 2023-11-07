@@ -153,7 +153,7 @@ boxy {
 }
 
 footer {
-  width: 100%;
+  width: 100.45%;
   height: 450px;
   display: flex;
   flex-direction: column;
@@ -163,6 +163,7 @@ footer {
   padding-top: 5%;
   position: relative;
   bottom: 0;
+  
 }
 footer1 {
   width: 100%;

@@ -64,7 +64,7 @@ box {
   margin-top: 5%;
 }
 box1 {
-  width:100%;
+  width:100.9%;
   background-color: #fbfbfc;
   display: flex;
   flex-direction: row;
@@ -95,7 +95,7 @@ pp {
 }
 box2 {
   background-color: #fbfbfc;
-  width: 100%;
+  width: 100.9%;
   display: flex;
   flex-direction: row;
   padding-top: 8%;
@@ -115,7 +115,7 @@ underline2 {
   color: #fbfbfc;
 }
 bigbox {
-  width: 100%;
+  width: 100.9%;
   background-color: #fbfbfc;
   height: auto;
 }

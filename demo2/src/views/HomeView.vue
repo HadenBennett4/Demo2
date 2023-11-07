@@ -1,3 +1,11 @@
+<script setup>
+function navigateToServices(){
+  console.log("pushed")
+    this.$router.push({ name:'services' })
+
+}
+</script>
+
 <template>
       <home-image>
       <img src="stock6.jpg"/>
@@ -56,7 +64,7 @@
 <block1>
   <block1-text-box>
     <block1-text>
-      Why choose us?
+      Why  choose us?
     </block1-text>
   </block1-text-box>
 
@@ -65,10 +73,38 @@
   </block1-paragraph-box>
 </block1>
 <block2>
+  <block2-image>
+    <img src="aboutimage.jpg">
+  </block2-image>
+  <block2-text-box>
+   <div style="padding:15px;">
+    Our team of professionals is dedicated to meeting the needs of our residents by using the skills and abilities that God has given them.
 
+<br><br>United Family is an Assisted Living residency that offers a secure, friendly, and loving environment that feels like home. Our team of professionals who serve and support our residents is what sets us apart.
+
+<br><br>Each team member is carefully selected and trained in our culture and beliefs. Customer service, dedication to dignity, and kindest towards our residents are the three main pillars of the system under which we work.
+   </div>
+  </block2-text-box>
 </block2>
 <block3>
+  <block3-header>
+    Our Services
+  </block3-header>
+  <block3-container>
+    <RouterLink class="block3-button" to="/services">
+      <v-icon hover animation="float" animationSpeed="slow" name="hi-mail" scale="3" />
+      Assisted Living
+    </RouterLink>
+    <RouterLink class="block3-button" to="/services">
+      <v-icon hover animation="float" animationSpeed="slow" name="hi-mail" scale="3" />
+      Assisted Living
+    </RouterLink>
+    <RouterLink class="block3-button" to="/services">
+      <v-icon hover animation="float" animationSpeed="slow" name="hi-mail" scale="3" />
+      Assisted Living
+    </RouterLink>
 
+  </block3-container>
 </block3>
 <block4>
 
@@ -208,12 +244,79 @@
   }
   block2{
     width:103%;
-    height: 500px;
-    background-color:white;
+    height: 800px;
+    background-color:rgb(236, 227, 227);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  block2-image{
+    width:33%;
+  }
+  block2-text-box{
+    width: 35%;
+    height: 75%;
+    background-color: white;
+    border-top-style: solid;
+    border-right-style:solid;
+    border-top-width:10px;
+    border-right-width:10px;
+    border-top-color:#2c4d57;
+    border-right-color:#2c4d57;
+    font-size:25px;
+    color:#2c4d57;
+    box-shadow: 0px 10px 10px 0px #888888;
+    line-height: 140%;
+    
   }
   block3{
-
+    width: 103%;
+    height:600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
   }
+  block3-header{
+    font-size:75px;
+    color:#968b57;
+    margin-bottom:20px;
+  }
+  block3-container{
+    width: 90%;
+    height: 40%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly ;
+    align-items: center;
+  }
+  .block3-button{
+    width:30%;
+    height: 70%;
+
+    border-style: solid;
+    border-width:1px;
+    border-color: #dfdfdf;
+    border-opacity:.5;
+    border-radius: 5%;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 15px;
+    color:#968b57;
+    font-size: 25px;
+  }
+  .block3-button:hover{
+    background-color:#2c4d57;
+    border-width:0px;
+    color:white;
+  }
+
   block4{
 
   }
@@ -248,7 +351,8 @@
   block1-text{
     font-size:60px;
     color:#968b57;
-    margin-left:10px;
+    margin-left:20px;
+    margin-top:20px;
   }
 }
 </style>

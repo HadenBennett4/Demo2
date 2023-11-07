@@ -184,6 +184,20 @@ p {
   width: 50%;
   margin-left: 40%;
 }
+p1 {
+  font-size: 20px;
+  padding-left: 1%;
+}
+.icons {
+  margin-left: 10%;
+}
+box2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10%;
+}
 
 box {
   background-color: #fbfbfc;

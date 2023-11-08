@@ -156,7 +156,7 @@ p2 {
   border:10px solid #2c3d57;
   border-bottom: none;
   border-left: none;
-  box-shadow: 0px 10px 10px 0px #888888;;
+  box-shadow: 0px 10px 10px 0px #888888;
 }
 
 about-image1 {

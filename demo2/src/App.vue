@@ -78,7 +78,6 @@ import { RouterLink, RouterView } from 'vue-router'
 <style scoped>
 @media (min-width: 1024px) {
 root{
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   margin:0;

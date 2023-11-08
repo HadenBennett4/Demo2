@@ -53,6 +53,7 @@
       justify-content: center;
       align-items: center;
       margin-top: 7%;
+      background-color: #fbfbfc;
     }
     gallery-container{
       display: flex;
@@ -85,4 +86,3 @@
     }
   }
   </style>
-  

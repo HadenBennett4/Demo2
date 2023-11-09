@@ -21,14 +21,14 @@ function navigateToServices(){
     </sub-header-text>
     <button-container>
       <but>
-      <button>
-        Contact Us Today
-      </button>
+        <RouterLink class="button" to="/about">
+      Contact Us
+    </RouterLink>
       </but>
       <but2>
-      <button>
-        Learn More
-      </button>
+      <RouterLink class="button" to="/about">
+      Learn More
+    </RouterLink>
       </but2>
     </button-container>
   </home-container>
@@ -257,7 +257,7 @@ function navigateToServices(){
     flex-direction: row;
     padding:20px;
   }
-  button{
+  .button{
     width:100%;
     height: 100%;;
     border-radius: 10px;
@@ -265,6 +265,8 @@ function navigateToServices(){
     border-color: transparent;
     font-size:20px;
     color:white;
+    text-decoration: none;
+    text-align: ;
 
   }
   but{

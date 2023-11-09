@@ -5,9 +5,7 @@ import { RouterLink, RouterView } from 'vue-router'
 <template>
   <root>
   <header>
-    <h1>
       <img class="header-image" src="../src/assets/headerimage.jpg">
-    </h1>
       <nav>
         <RouterLink class="router-link" to="/">Home</RouterLink>
         <RouterLink class="router-link" to="/about">About</RouterLink>
@@ -24,7 +22,8 @@ import { RouterLink, RouterView } from 'vue-router'
           <v-icon name="bi-linkedin" scale="1" fill="black"/>
           </a>
         </boxy>
-      <p>(420) 696-6969</p>
+        <p>(420) 696-6969</p>
+
   </header>
 <RouterView/>
 <footer>
@@ -89,7 +88,7 @@ header {
   top: 0;
   display: flex;
   flex-direction:row;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   background-color: white;
   position: fixed;
@@ -99,14 +98,14 @@ header {
 }
 
 nav {
-  align-items: right;
-  justify-content: right;
   display: flex;
-  margin-left: 10%;
+  align-items: center;
+  justify-content: center;
+  width:600px;
 }
 
 .router-link {
-  margin-right: 15%;
+  margin-right:50px;
   align-items: bottom;
   text-decoration: none;
   color: #2c3d57;
@@ -122,18 +121,16 @@ nav a.router-link-exact-active {
 }
 
 .header-image {
-  width:20%;
+  width:145px;
   height:auto;
-  margin-left: 20%;
 }
 
 p {
-  width: 40%;
-  height: 20%;
+  width: 200px;
+  height: 20px;
   font-size: 15px;
   display: flex;
   background-color: #968b57;
-  margin-right:20%;
   padding: 0.5%;
   border-radius: 20px;
   color: white;
@@ -148,8 +145,9 @@ p {
 boxy {
   display: flex;
   flex-direction: row;
-  padding-left: 5%;
-  padding-right: 4%;
+  align-items: center;
+  justify-content: center;
+  width:50px;
 }
 
 footer {

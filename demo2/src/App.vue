@@ -113,12 +113,12 @@ function isMobile() {
   
   <nav-container v-if="showNavBar===true">
     <nav>
-        <RouterLink class="router-link" to="/">Home</RouterLink>
-        <RouterLink class="router-link" to="/about">About</RouterLink>
-        <RouterLink class="router-link" to="/services">Services</RouterLink>
-        <RouterLink class="router-link" to="/faq">Faq</RouterLink>
-        <RouterLink class="router-link" to="/gallery">Gallery</RouterLink>
-        <RouterLink class="router-link" to="/contact">Contact</RouterLink>
+        <RouterLink @click="setShowNavBar()" class="router-link" to="/">Home</RouterLink>
+        <RouterLink @click="setShowNavBar()" class="router-link" to="/about">About</RouterLink>
+        <RouterLink @click="setShowNavBar()" class="router-link" to="/services">Services</RouterLink>
+        <RouterLink @click="setShowNavBar()" class="router-link" to="/faq">Faq</RouterLink>
+        <RouterLink @click="setShowNavBar()" class="router-link" to="/gallery">Gallery</RouterLink>
+        <RouterLink @click="setShowNavBar()" class="router-link" to="/contact">Contact</RouterLink>
       </nav>
           <v-icon class="nav-bar-button2" @click="setShowNavBar()" name="bi-x-lg" scale="2" fill="white" />
   </nav-container>

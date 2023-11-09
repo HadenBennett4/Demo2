@@ -154,18 +154,18 @@ function navigateToServices(){
   <RouterLink class="router-link" to="/gallery">Explore Our Full Gallery!</RouterLink>
   <photo-container>
         <photo-box>
-          <img src="Gallert.jpg" style="width: 300px;">
+          <img src="Gallert.jpg" class="imgimg" >
         </photo-box>
         <photo-box>
-          <img src="Gallert.jpg" style="width: 300px;">
+          <img src="Gallert.jpg" class="imgimg">
         </photo-box>
       </photo-container>
       <photo-container>
         <photo-box>
-          <img src="Gallert.jpg" style="width: 300px;">
+          <img src="Gallert.jpg" class="imgimg">
         </photo-box>
         <photo-box>
-          <img src="Gallert.jpg" style="width: 300px;">
+          <img src="Gallert.jpg" class="imgimg">
         </photo-box>
       </photo-container>
 </block5-container>
@@ -931,12 +931,12 @@ p4 {
     justify-content: center;
   }
     .home {
-    min-height: 120vh;
+    width: 100%;  
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100%;  
+
   }
   contact{
     display: flex;
@@ -1013,7 +1013,7 @@ p4 {
     background-color: #726d6a;
   }
   home-image{
-    width: 100%;
+    width: 70%;
     position:fixed;
     z-index:-1;
   }
@@ -1265,6 +1265,9 @@ p4 {
     color:#968b57;
     margin-left:20px;
     margin-top:20px;
+  }
+  .imgimg {
+    width: 50px;
   }
 }
 </style>

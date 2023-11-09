@@ -317,12 +317,14 @@ p4 {
 /*Mobile*/
 @media (max-width: 480px) {
 root{
+  width:100%;
   display: flex;
   flex-direction: column;
   margin:0;
+  padding:0;
 }
 header {
-  height: 75px;
+  height: 6%;
   width: 100%;
   top: 0;
   background-color: white;

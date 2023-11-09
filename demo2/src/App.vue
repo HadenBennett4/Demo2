@@ -75,9 +75,9 @@ import { RouterLink, RouterView } from 'vue-router'
 </template>
 
 <style scoped>
+/* desktop */
 @media (min-width: 1024px) {
 root{
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   margin:0;
@@ -260,6 +260,5 @@ p4 {
   padding-top: 1%;
   padding-bottom: 5%;
 }
-
 }
 </style>

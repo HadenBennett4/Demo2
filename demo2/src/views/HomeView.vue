@@ -504,6 +504,7 @@ p4 {
   padding-left: 30px;
   padding-bottom: 15px;
   padding-right: 30px;
+  border-radius: 15px;
 }
   block7{
     display:flex;

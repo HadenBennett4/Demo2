@@ -315,6 +315,7 @@ p4 {
   padding-left: 40px;
   padding-bottom: 20px;
   padding-right: 40px;
+  border-radius: 15px;
 }
 
 faq-block{
@@ -349,8 +350,9 @@ answer-block{
   text-align: left;
   height:150px;
   color:#2c3d57;
-  font-size: 20px;
+  font-size: 18px;
   align-self: center;
+  line-height: 1.5;
 }
   }
   </style>

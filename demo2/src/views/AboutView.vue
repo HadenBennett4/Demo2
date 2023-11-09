@@ -253,6 +253,7 @@ p4 {
   padding-left: 40px;
   padding-bottom: 20px;
   padding-right: 40px;
+  border-radius: 15px;
 }
 underline {
   width:20%;

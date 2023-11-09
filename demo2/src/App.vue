@@ -63,7 +63,8 @@ function isMobile() {
           </a>
         <a href="https://www.nationalgeographic.com/" target="_blank" class="iconic">
           <v-icon name="bi-linkedin" scale="1.5" fill="white"/>
-          </a></tinybox>
+          </a>
+      </tinybox>
   </box>
   <box1>
     <h3>Overview</h3>
@@ -112,12 +113,12 @@ function isMobile() {
   
   <nav-container v-if="showNavBar===true">
     <nav>
-        <RouterLink class="router-link" to="/">Home</RouterLink>
-        <RouterLink class="router-link" to="/about">About</RouterLink>
-        <RouterLink class="router-link" to="/services">Services</RouterLink>
-        <RouterLink class="router-link" to="/faq">Faq</RouterLink>
-        <RouterLink class="router-link" to="/gallery">Gallery</RouterLink>
-        <RouterLink class="router-link" to="/contact">Contact</RouterLink>
+        <RouterLink @click="setShowNavBar()" class="router-link" to="/">Home</RouterLink>
+        <RouterLink @click="setShowNavBar()" class="router-link" to="/about">About</RouterLink>
+        <RouterLink @click="setShowNavBar()" class="router-link" to="/services">Services</RouterLink>
+        <RouterLink @click="setShowNavBar()" class="router-link" to="/faq">Faq</RouterLink>
+        <RouterLink @click="setShowNavBar()" class="router-link" to="/gallery">Gallery</RouterLink>
+        <RouterLink @click="setShowNavBar()" class="router-link" to="/contact">Contact</RouterLink>
       </nav>
           <v-icon class="nav-bar-button2" @click="setShowNavBar()" name="bi-x-lg" scale="2" fill="white" />
   </nav-container>
@@ -443,7 +444,7 @@ width: 100%;
 margin-right: -10%;
 }
 h3 {
-  color: #fbfbfc;
+  color: #fbfbfc; 
   font-size: 25px;
 }
 .routerlink{

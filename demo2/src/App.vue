@@ -321,7 +321,6 @@ root{
   height:100%;
   margin:0;
   padding:0;
-  background-color: #968b57;
   display:flex;
   flex:1;
 }

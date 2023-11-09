@@ -122,7 +122,42 @@ function isMobile() {
       </nav>
           <v-icon class="nav-bar-button2" @click="setShowNavBar()" name="bi-x-lg" scale="2" fill="white" />
   </nav-container>
-
+  <footer>
+  <footer1>
+  <box>
+    <h2>UNITED FAMILY</h2>
+    <p2>PROVIDE PERFECT CARE FOR YOUR LOVED ONE</p2>
+    <tinybox>
+    <a href="https://www.nationalgeographic.com/" target="_blank" class="iconic">
+          <v-icon name="bi-facebook" scale="1.5" fill="white"/>
+          </a>
+        <a href="https://www.nationalgeographic.com/" target="_blank" class="iconic">
+          <v-icon name="bi-linkedin" scale="1.5" fill="white"/>
+          </a>
+      </tinybox>
+  </box>
+  <bigbox>
+  <box1>
+    <h3>Overview</h3>
+    <nav1>
+        <RouterLink class="routerlink" to="/">Home</RouterLink>
+        <RouterLink class="routerlink" to="/services">Services</RouterLink>
+        <RouterLink class="routerlink" to="/gallery">Gallery</RouterLink>
+      </nav1>
+  </box1>
+  <box3>
+  <h5>Infromation</h5>
+  <nav1>
+    <RouterLink class="routerlink" to="/about">About</RouterLink>
+    <RouterLink class="routerlink" to="/faq">Faq</RouterLink>
+    <RouterLink class="routerlink" to="/contact">Contact</RouterLink>
+  </nav1>
+  </box3>
+</bigbox>
+  </footer1>
+  <hr class="page-break-line">
+  <p4 >Website produced and powered by Duckweed Marketing 2023</p4>
+</footer>
 </root>
 </template>
 
@@ -392,7 +427,7 @@ boxy {
 
 footer {
   width: 100.98%;
-  height: 450px;
+  height: 300px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -403,32 +438,32 @@ footer {
   bottom: 0;
   margin-left:-0.5%;
   margin-bottom: -0.5%;
+  margin-top: 10%;
   
 }
 footer1 {
   width: 100%;
   height: 50vh;
-  display: flex;
-  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 box {
   display: flex;
   flex-direction: column;
   width: 100%;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 20%;
 }
 h2 {
   width: 100%;
   color: #fbfbfc;
-  padding-bottom: 5%;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: normal;
 }
 p2 {
   width: 100%;
   color:#fbfbfc;
-  padding-bottom: 10%;
+  font-size: 10px;
+  padding-bottom: 5%;
 }
 .iconic {
   padding-right:5%;
@@ -437,15 +472,30 @@ tinybox {
   display: flex;
   flex-direction: row;
 }
+bigbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 10%;
+}
 box1 {
 display: flex;
 flex-direction: column;
-width: 100%;
-margin-right: -10%;
+width: 50%;
 }
 h3 {
   color: #fbfbfc; 
-  font-size: 25px;
+  font-size: 15px;
+  margin-bottom: 5%;
+  padding-top: 10px;
+}
+box3 {
+  width: 50%;
+}
+h5 {
+  color: #fbfbfc;
+  font-size: 15px;
+  margin-bottom: 5%;
 }
 .routerlink{
   display: flex;
@@ -453,52 +503,16 @@ h3 {
   text-decoration: none;
   color: #fbfbfc;
   margin-bottom: 5%;
-}
-box3 {
-  width: 100%;
-  margin-top: -1%;
-  margin-right: -10%;
-}
-h5 {
-  color: #fbfbfc;
-  font-size: 25px;
-}
-box2 {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  margin-top: -0.5%;
-}
-h4 {
-  color: #fbfbfc;
-  font-size: 25px;
-}
-smallbox {
-  background-color: #293241;
-  width: 80%;
-  height: 20%;
-  display: flex;
-  flex-direction: row;
-  justify-content: start;
-  align-items: center;
-  border-radius: 5px;
-}
-p3 {
-  color: #fbfbfc;
-  padding-left: 5%;
-  padding-top: 3%;
-}
-.icon{
-  margin-left: 20%;
+  font-size: 10px;
 }
 .page-break-line {
   width: 80%;
 }
 p4 {
   color: #fbfbfc;
-  padding-left: 10%;
   padding-top: 1%;
   padding-bottom: 5%;
+  font-size: 10px;
 }
 .nav-bar-button2{
   position: absolute;

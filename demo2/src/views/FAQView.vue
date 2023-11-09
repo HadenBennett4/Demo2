@@ -165,7 +165,7 @@ function changeShow(i){
           <h3>About Covid-19 Precautions</h3>
           <underline2>bbbbbbbbbbbbbb</underline2>
           <br>
-          <img src="faq2.jpg" class="faq2">
+          <img src="faq2.jpg" style="width: 600px">
           </box-child>
 
       </box1>

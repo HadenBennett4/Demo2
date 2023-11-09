@@ -107,8 +107,9 @@ function isMobile() {
       <img class="header-image" src="../src/assets/headerimage.jpg">
           <v-icon class="nav-bar-button" @click="setShowNavBar()" name="bi-justify" scale="2" fill="black"/>
   </header>
-  </div>
   <RouterView/>
+  </div>
+  
   <nav-container v-if="showNavBar===true">
     <nav>
         <RouterLink class="router-link" to="/">Home</RouterLink>
@@ -321,15 +322,13 @@ root{
   margin:0;
   padding:0;
   background-color: #968b57;
+  display:flex;
+  flex:1;
 }
 header {
   height: 110px;
-  width: 100%;
+  width: 480px;
   top: 0;
-  display: flex;
-  flex-direction:column;
-  justify-content: center;
-  align-items: center;
   background-color: white;
   position: fixed;
   font-family: sans-serif;
@@ -508,11 +507,11 @@ p4 {
     margin-right: 2%;
 }
 .nav-bar-button{
-    position: fixed;
+    position: absolute;
     right: 0;
     top: 0; 
-    margin-top: 2%;
-    margin-right: 2%;
+    margin-right:35px;
+    margin-top: 10px;
   }
   nav-container{
     background-color: #293241;

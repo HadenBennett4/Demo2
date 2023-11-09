@@ -92,15 +92,15 @@ function navigateToServices(){
   </block3-header>
   <block3-container>
     <RouterLink class="block3-button" to="/services">
-      <v-icon hover animation="float" animationSpeed="slow" name="hi-mail" scale="3" />
+      <v-icon hover animation="float" animationSpeed="slow" name="hi-mail" scale="3" class="ic-on" />
       Assisted Living
     </RouterLink>
     <RouterLink class="block3-button" to="/services">
-      <v-icon hover animation="float" animationSpeed="slow" name="hi-mail" scale="3" />
+      <v-icon hover animation="float" animationSpeed="slow" name="hi-mail" scale="3" class="ic-on"/>
       Respite Care
     </RouterLink>
     <RouterLink class="block3-button" to="/services">
-      <v-icon hover animation="float" animationSpeed="slow" name="hi-mail" scale="3" />
+      <v-icon hover animation="float" animationSpeed="slow" name="hi-mail" scale="3" class="ic-on"/>
       Independent Caregivers
     </RouterLink>
   </block3-container>
@@ -931,12 +931,12 @@ p4 {
     justify-content: center;
   }
     .home {
-    width: 100%;  
+    width: 103.99999%;  
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
+    margin-left:-7px;
   }
   contact{
     display: flex;
@@ -944,28 +944,26 @@ p4 {
     justify-content: space-evenly;
     align-items: center;
     align-self: center;
-    bottom: 25px;
     width:90%;
     height: 100px;
-
+    margin-top: -10px;
   }
   div-line{
     width: 90%;
-    height:1px;
+    height:0.5px;
     background-color: white;
     opacity: .5;
     align-self: center;
-    bottom: 200px;
-    margin-top: 10px;
+    margin-top: 5px;
   }
   home-container{
     display: flex;
     flex-direction: column;
-    justify-content: left;
-    align-items: left;
+    justify-content: center;
+    align-items: center;
     width: 90%;
-    text-align: left;
-    margin-top: 100px;
+    text-align: center;
+    margin-top: 50px;
   }
   header-text{
     font-size:25px;
@@ -991,7 +989,7 @@ p4 {
     font-size: 10px;
     color:white;
     text-decoration: none;
-    margin-left: 15px;
+    margin-left: 0px;
   }
   but{
     width:75px;
@@ -1013,9 +1011,10 @@ p4 {
     background-color: #726d6a;
   }
   home-image{
-    width: 70%;
+    width: 100%;
     position:fixed;
     z-index:-1;
+    margin-left: -7px;
   }
   img{
     width: 100%;
@@ -1023,29 +1022,30 @@ p4 {
   }
   block1{
     width:100.98%;
-    height: 300px;
+    height: 200px;
     background-color: #e7e9ef;
     display: flex;
     flex-direction:row;
     justify-content: center;
     align-items: center;
+    margin-top: -20px;
   }
   block2{
     width:100.98%;
-    height: 800px;
+    height: 700px;
     background-color:#fbfbfc;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     padding-top: 2%;
   }
   block2-image{
-    width:33%;
+    width:50%;
     margin-left: 5%;
   }
   block2-text-box{
-    width: 30%;
+    width: 65%;
     padding: 1%;
     background-color: white;
     border-top-style: solid;
@@ -1054,7 +1054,7 @@ p4 {
     border-right-width:10px;
     border-top-color:#2c3d57;
     border-right-color:#2c3d57;
-    font-size:18px;
+    font-size:13px;
     color:#2c3d57;
     box-shadow: -5px 10px 10px #888888;
     line-height: 155%;
@@ -1062,17 +1062,17 @@ p4 {
   }
   block3{
     width: 100.98%;
-    height:600px;
+    height:300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #fbfbfc;
+    margin-top: -1%;
   }
   block3-header{
-    font-size:75px;
+    font-size:30px;
     color:#968b57;
-    margin-bottom:20px;
   }
   block3-container{
     width: 75%;
@@ -1084,7 +1084,7 @@ p4 {
   }
   .block3-button{
     width:25%;
-    height: 70%;
+    height: 50%;
     border-style: solid;
     border-width:1px;
     border-color: #dfdfdf;
@@ -1095,12 +1095,15 @@ p4 {
     align-items: start;
     padding: 15px;
     color:#968b57;
-    font-size: 25px;
+    font-size: 10px;
   }
   .block3-button:hover{
     background-color:#2c3d57;
     border-width:0px;
     color:white;
+  }
+  .ic-on {
+    scale: 1;
   }
 
   block4{
@@ -1109,35 +1112,37 @@ p4 {
     flex-direction: column;
     width: 100.98%;
     align-items: center;
+    margin-top: -1px;
   }
   block4-header {
-    font-size: 40px;
+    font-size: 23px;
     color: #2c3d57;
   }
   underline {
     color: #fbfbfc;
-    border: 5px solid #000;
+    border: 1px solid #000;
     border-bottom: none;
     border-left: none;
     border-right: none;
   }
   block4-container {
     justify-content: center;
+    align-items: center;
     width: 75%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
   }
   block4-containerbaby{
-    width: 50%;
+    width: 65%;
     margin: 5%;
   }
   block4-bheader{
-    font-size: 25px;
+    font-size: 20px;
     color:#968b57;
     font-weight: bold;
   }
   block4-p {
-    font-size: 20px;
+    font-size: 15px;
     color: #475671;
   }
   block5{
@@ -1148,6 +1153,7 @@ p4 {
     justify-content: center;
     align-items: center;
     padding-bottom: 5%;
+    margin-top: -1px;
   }
   block5-container {
     width:75%;
@@ -1155,23 +1161,16 @@ p4 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: white;
     padding-bottom: 2%;
     padding-top: 5%;
+    background-color: #fbfbfc;
   }
 
   block5-header {
-    font-size: 35px;
+    font-size: 25px;
     color:#2c3d57;
   }
-  .router-link {
-    background-color: #2c3d57;
-    text-decoration: none;
-    color: white;
-    padding: 1%;
-    margin-bottom: 5%;
-    margin-top: 3%;
-  }
+
   photo-container {
     display: flex;
     flex-direction: row;
@@ -1184,25 +1183,31 @@ p4 {
   background-color: #fbfbfc;
   height: auto;
 }
-
+  .router-link {
+    background-color: #2c3d57;
+    text-decoration: none;
+    color: white;
+    padding: 1%;
+    margin-bottom: 5%;
+    margin-top: 3%;
+  }
 box3 {
   width: 65%;
+  align-items: center;
+  justify-content: center;
   background-color: #968b57;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   height: 100%;
-  margin-bottom: 8%;
-  margin-top: 8%;
-  margin-left: 20%;
   border-radius: 15px;
 }
 
 box-child2 {
-  padding-left: 13%;
+  padding: 10%;
   display: flex;
   flex-direction: column;
   color: white;
-  padding-bottom: 5%;
+  padding-bottom: 10%;
 }
 
 h4 {
@@ -1218,7 +1223,7 @@ p4 {
   margin-right: 5%;
   text-decoration: none;
   background-color: #2c3d57;
-  margin-bottom: auto;
+  margin-bottom: 15px;
   color: white;
   font-size: 15px;
   align-items: center;
@@ -1239,7 +1244,7 @@ p4 {
   block1-paragraph-box{
     width:40%;
     height:90%;
-    font-size: 17px;
+    font-size: 10px;
     color:#2c3d57;
     padding-top: 3%;
     line-height: 2;
@@ -1254,20 +1259,20 @@ p4 {
     align-items: start;
   }
   underline2 {
-    border: 5px solid #000;
+    border: 2px solid #000;
     width: 20%;
     border-bottom: none;
-    margin-left: 5%;
+    margin-left: 10%;
     margin-top: 1%;
   }
   block1-text{
-    font-size:60px;
+    font-size:25px;
     color:#968b57;
     margin-left:20px;
     margin-top:20px;
   }
   .imgimg {
-    width: 50px;
+    width: 175px;
   }
 }
 </style>

@@ -320,8 +320,6 @@ root{
   width:100%;
   display: flex;
   flex-direction: column;
-  margin:0;
-  padding:0;
 }
 header {
   height: 6%;
@@ -332,6 +330,7 @@ header {
   font-family: sans-serif;
   font-weight: bold;
   z-index:2;
+  margin-left: -10px;
 }
 
 nav {
@@ -344,8 +343,10 @@ nav {
 
 .router-link {
   text-decoration: none;
-  color: #2c3d57;
+  color: white;
   font-size: 20px;
+  padding-bottom: 10%;
+  margin-top: 10%;
 }
 
 .router-link:hover {
@@ -359,7 +360,8 @@ nav a.router-link-exact-active {
 .header-image {
   width:50px;
   height:auto;
-  align-self: center;
+  margin-left: 5%;
+  margin-top: 3%;
 }
 
 p {

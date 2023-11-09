@@ -63,7 +63,8 @@ function isMobile() {
           </a>
         <a href="https://www.nationalgeographic.com/" target="_blank" class="iconic">
           <v-icon name="bi-linkedin" scale="1.5" fill="white"/>
-          </a></tinybox>
+          </a>
+      </tinybox>
   </box>
   <box1>
     <h3>Overview</h3>
@@ -441,7 +442,7 @@ width: 100%;
 margin-right: -10%;
 }
 h3 {
-  color: #fbfbfc;
+  color: #fbfbfc; 
   font-size: 25px;
 }
 .routerlink{

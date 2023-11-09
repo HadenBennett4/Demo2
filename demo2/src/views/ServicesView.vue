@@ -195,7 +195,6 @@ function isMobile() {
     width: 100%;
     position: fixed;
     z-index: -1;
-    margin-top: 8%;
   }
 
   .aboutimg {

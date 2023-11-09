@@ -164,7 +164,8 @@ contact-image {
     top:0;
     position:fixed;
     z-index:-1;
-    margin-top: 8%;
+    margin-left:-8px;
+
 }
 container{
   color: white;
@@ -202,17 +203,19 @@ box2 {
 box {
   background-color: #fbfbfc;
   padding-bottom: 5%;
-  width: 100.45%;
+  width: 100.98%;
+  margin-left: -8px;
+  padding-left: 5%;
 }
 
 h2{
   color: #968b57;
   font-size: 50px;
-  padding-left: 10%;
+
 }
 p2 {
   font-size: 15px;
-  padding-left: 10%;
+
 }
 
 form{
@@ -224,7 +227,7 @@ form{
       align-items: left;
       background-color: #fbfbfc;
       padding-top: 5%;
-      padding-left: 10%;
+    
     }
 
 form-container-child{
@@ -399,11 +402,11 @@ box {
 h2{
   color: #968b57;
   font-size: 50px;
-  padding-left: 10%;
+
 }
 p2 {
   font-size: 15px;
-  padding-left: 10%;
+
 }
 
 form{
@@ -415,7 +418,7 @@ form{
       align-items: left;
       background-color: #fbfbfc;
       padding-top: 5%;
-      padding-left: 10%;
+    
     }
 
 form-container-child{
@@ -531,7 +534,7 @@ form-container-child{
     display: flex;
     flex-direction: column;
     padding-top: 10%;
-    z-index:0;
+
   }
   .contactimg {
     width: 100%;
@@ -590,11 +593,11 @@ box {
 h2{
   color: #968b57;
   font-size: 50px;
-  padding-left: 10%;
+
 }
 p2 {
   font-size: 15px;
-  padding-left: 10%;
+
 }
 
 form{
@@ -606,7 +609,7 @@ form{
       align-items: left;
       background-color: #fbfbfc;
       padding-top: 5%;
-      padding-left: 10%;
+    
     }
 
 form-container-child{
@@ -630,7 +633,7 @@ form-container-child{
     input{
       font-size: 17px;
       color:#2c3d57;
-      width: 410%;
+      width: 100%;
       min-height: 40px;
       border-style: solid;
       border-color:#e7e9ef;
@@ -641,7 +644,7 @@ form-container-child{
     }
 
     .message-in{
-      width: 395%;
+      width: 100%;
       height: 195%;
       display:flex;
       flex-direction: column;
@@ -656,7 +659,7 @@ form-container-child{
     form-container{
       display: flex;
       flex-wrap: wrap;
-      flex-direction: row;
+      flex-direction: column;
       justify-content: space-between;
       align-items: center;
       
@@ -710,9 +713,8 @@ form-container-child{
       opacity: .5;
     }
     #google-map{
-      width:300px;
-      height:300px;
-      margin-right: 75px;
+      width:100px;
+      height:100px;
     }
 }
 </style>

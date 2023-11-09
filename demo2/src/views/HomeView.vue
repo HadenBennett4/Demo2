@@ -8,7 +8,7 @@ function navigateToServices(){
 
 <template>
       <home-image>
-      <img src="stock6.jpg"/>
+      <img class="homeimg" src="stock6.jpg"/>
     </home-image>
   <div class="home">
 
@@ -206,12 +206,12 @@ function navigateToServices(){
     justify-content: center;
   }
     .home {
-    min-height: 120vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%;  
+    padding-top: 10%;
   }
   contact{
     display: flex;
@@ -240,7 +240,7 @@ function navigateToServices(){
     align-items: left;
     width: 90%;
     text-align: left;
-    margin-top:200px;
+    margin-top:100px;
   }
   header-text{
     font-size:100px;
@@ -290,9 +290,11 @@ function navigateToServices(){
     background-color: #726d6a;
   }
   home-image{
+    top:0;
     width: 100%;
     position:fixed;
     z-index:-1;
+    margin-left: -7px;
   }
   img{
     width: 100%;
@@ -1016,7 +1018,7 @@ p4 {
     z-index:-1;
     margin-left: -7px;
   }
-  img{
+  .homeimg{
     width: 100%;
     filter:  brightness(70%);
   }

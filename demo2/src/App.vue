@@ -170,18 +170,19 @@ root{
   margin:0;
 }
 header {
-  height: 110px;
+  height: 130px;
   width: 100%;
   top: 0;
   display: flex;
   flex-direction:row;
   justify-content: space-around;
   align-items: center;
-  background-color: white;
+  background-color: black;
   position: fixed;
   font-family: sans-serif;
   font-weight: bold;
   z-index:2;
+  margin-left:-10px;
 }
 
 nav {

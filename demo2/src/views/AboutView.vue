@@ -150,7 +150,6 @@ function isMobile() {
 <style scoped>
 @media (min-width: 1024px) {
   .about {
-    min-height: 120vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -158,7 +157,6 @@ function isMobile() {
     justify-content: center;
     align-items: center;
     padding-top: 10%;
-    margin: 0;
   }
 
   about-image {
@@ -166,7 +164,6 @@ function isMobile() {
     width: 100%;
     position: fixed;
     z-index: -1;
-    margin-top: 8%;
   }
 
   .aboutimg {

@@ -245,7 +245,6 @@ function changeShow(i){
   <style scoped>
   @media (min-width: 1024px) {
     .faq {
-    min-height: 120vh;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -260,7 +259,6 @@ function changeShow(i){
     width:100%;
     position:fixed;
     z-index:-1;
-    margin-top: 8%;
 }
 .faqimg{
   width:600px;
@@ -270,7 +268,7 @@ function changeShow(i){
   filter: brightness(65%);
 }
 container{
-  width:103%;
+  width:105%;
   background-color:#fbfbfc;
   padding-bottom: 50px;
   display: flex;

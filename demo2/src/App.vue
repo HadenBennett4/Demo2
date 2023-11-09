@@ -314,7 +314,7 @@ p4 {
 }
 
 
-
+/*Mobile*/
 @media (max-width: 480px) {
 root{
   width:100%;

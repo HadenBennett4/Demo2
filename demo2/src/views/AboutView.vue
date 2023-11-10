@@ -138,8 +138,10 @@ function isMobile() {
       </box2>
       <bigbox>
         <box3>
+          <box3-child>
           <h4>Let us help you!</h4>
           <p4>Let us help give you the peace of mind you deserve.</p4>
+        </box3-child>
           <RouterLink class="router-link" to="/contact">CONTACT US</RouterLink>
         </box3>
       </bigbox>
@@ -169,6 +171,12 @@ function isMobile() {
   .aboutimg {
     width: 100%;
     filter: brightness(70%);
+  }
+  box3-child {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+    margin-bottom: 5%;
   }
 
   container {
@@ -314,20 +322,15 @@ function isMobile() {
     border-radius: 15px;
   }
 
-  box-child2 {
-    padding-left: 30%;
-    display: flex;
-    flex-direction: column;
-    color: white;
-    padding-bottom: 5%;
-  }
 
   h4 {
     font-size: 40px;
+    color: white;
   }
 
   p4 {
     font-size: 20px;
+    color: white;
   }
 
   .router-link {

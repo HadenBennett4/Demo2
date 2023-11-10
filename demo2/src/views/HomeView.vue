@@ -294,7 +294,7 @@ function navigateToServices(){
     width: 100%;
     position:fixed;
     z-index:-1;
-    margin-left: -7px;
+    margin-left: -10px;
   }
   img{
     width: 100%;

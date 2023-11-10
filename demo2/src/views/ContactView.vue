@@ -72,12 +72,12 @@ export default defineComponent({
     <h1>Contact Us</h1>
     <p>Keep in touch with us</p>
     <box2>
-      <a href="https://www.nationalgeographic.com/" target="_blank" class="icons">
-        <v-icon hover animation="float" animationSpeed="slow" name="hi-mail" scale="3" fill="white"/> 
+      <a href="https://www.nationalgeographic.com/" target="_blank" >
+        <v-icon hover animation="float" animationSpeed="slow" name="hi-mail" fill="white" class="icons"/> 
         </a>
         <p1>Hello@duckweedmarketing.com</p1>
-        <a href="https://www.nationalgeographic.com/" target="_blank" class="icons">
-          <v-icon hover animation="float" animationSpeed="slow" name="bi-telephone-fill" scale="3" fill="white"/>
+        <a href="https://www.nationalgeographic.com/" target="_blank" >
+          <v-icon hover animation="float" animationSpeed="slow" name="bi-telephone-fill" fill="white" class="icons"/>
           </a>
           <p1>(469) 207-6194</p1>
     </box2>
@@ -187,10 +187,11 @@ p {
 }
 p1 {
   font-size: 20px;
-  padding-left: 1%;
+  padding-left: 2%;
 }
 .icons {
-  margin-left: 10%;
+  margin-left: 50px;
+  scale: 3;
 }
 box2 {
   width: 100%;
@@ -384,6 +385,7 @@ p1 {
 }
 .icons {
   margin-left: 10%;
+  scale: 3;
 }
 box2 {
   width: 100%;
@@ -550,6 +552,7 @@ contact-image {
     position:fixed;
     z-index:-1;
     margin-top: 8%;
+    width: 100%;
 }
 container{
   color: white;
@@ -561,20 +564,22 @@ container{
   padding-bottom: 5%;
 }
 h1 {
-  font-size: 50px;
+  font-size: 25px;
 }
 p {
-  font-size: 20px;
+  font-size: 15px;
   padding-bottom: 8%;
   width: 100%;
-  margin-left: 80%;
+  margin-left: 70%;
 }
 p1 {
-  font-size: 20px;
-  padding-left: 1%;
+  font-size: 15px;
+  padding-left: 5% ;
 }
 .icons {
   margin-left: 10%;
+  scale:1;
+  margin: 10%;
 }
 box2 {
   width: 100%;
@@ -601,7 +606,7 @@ p2 {
 }
 
 form{
-      width:40%;
+      width:90%;
       height: auto;
       display: flex;
       flex-direction: column;
@@ -609,11 +614,11 @@ form{
       align-items: left;
       background-color: #fbfbfc;
       padding-top: 5%;
-    
+      padding-right: 5%;
     }
 
 form-container-child{
-      width:45%;
+      width:100%;
       height: 30%;
       margin-right:2%;
       margin-bottom: 2%;
@@ -626,7 +631,7 @@ form-container-child{
       font-size: 20px;
       color:#2c3d57;
       font-weight: bold;
-      width: 25%;
+      width: 90%;
       height: 48%;
     }
 
@@ -645,7 +650,7 @@ form-container-child{
 
     .message-in{
       width: 100%;
-      height: 195%;
+      height: 100%;
       display:flex;
       flex-direction: column;
       justify-content: space-between;
@@ -664,11 +669,11 @@ form-container-child{
       align-items: center;
       
       width:100%;
-      height:37%;
+      height:100%;
     }
     subject-container{
-      width: 97%;
-      height:12%;
+      width: 100%;
+      height:100%;
 
 
       display: flex;
@@ -681,7 +686,7 @@ form-container-child{
 
     message-container{
       width: 100%;
-      height:50%;
+      height:100%;
 
       display: flex;
       flex-direction: column;
@@ -713,8 +718,10 @@ form-container-child{
       opacity: .5;
     }
     #google-map{
-      width:100px;
-      height:100px;
+      width:300px;
+      height:300px;
+      margin-top: 15%;
+      margin-left: 10%;
     }
 }
 </style>

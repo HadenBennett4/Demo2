@@ -177,7 +177,7 @@ header {
   flex-direction:row;
   justify-content: space-around;
   align-items: center;
-  background-color: black;
+  background-color: white;
   position: fixed;
   font-family: sans-serif;
   font-weight: bold;
@@ -357,6 +357,7 @@ root{
   width:100%;
   display: flex;
   flex-direction: column;
+  overflow-x: hidden;
 }
 header {
   height: 6%;

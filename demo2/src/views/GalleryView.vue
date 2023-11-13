@@ -64,7 +64,6 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin-top: 25px;
   }
   galleryblock{
     margin-top: 7%;
@@ -154,7 +153,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 7%;
+    margin-top: 15%;
     background-color: #fbfbfc;
   }
 
@@ -178,9 +177,10 @@
   }
 
   header-text {
-    font-size: 100px;
+    font-size: 50px;
     color: #968b57;
-    margin-bottom: 5px;
+    margin-left: 30%;
+
   }
 
   demo-vid {

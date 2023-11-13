@@ -593,6 +593,7 @@ box {
   background-color: #fbfbfc;
   padding-bottom: 5%;
   width: 100.45%;
+  display: flex;
 }
 
 h2{

@@ -437,7 +437,7 @@ function isMobile() {
   }
 
 }
-
+/* Mobile */
 @media (max-width: 480px) {
   .Services {
     min-height: 120vh;
@@ -474,7 +474,8 @@ function isMobile() {
   }
 
   h1 {
-    font-size: 50px;
+    font-size: 40px;
+    margin-left: 5%;
   }
 
   p {
@@ -685,6 +686,7 @@ function isMobile() {
     line-height: 2em;
     color: #2c3d57;
     margin-top: -5%;
+    padding: 5%;
   }
 
   .checklist li::before {

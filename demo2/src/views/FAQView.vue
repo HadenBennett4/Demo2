@@ -464,11 +464,11 @@ box {
   font-size: 15px;
   width:100%;
   text-align: center;
-  margin-top: 10%;
+  margin-top: 5%;
   padding-bottom: 20%;
 }
 box1 {
-  width:90%;
+  width:85%;
   background-color:#fbfbfc;
   display: flex;
   flex-direction: column;
@@ -521,9 +521,10 @@ bigbox {
   width: 100.9%;
   background-color: #fbfbfc;
   height: auto;
+  margin-left: 13%;
 }
 box3 {
-  width: 100%;
+  width: 90%;
   align-items: center;
   justify-content: center;
   background-color: #968b57;

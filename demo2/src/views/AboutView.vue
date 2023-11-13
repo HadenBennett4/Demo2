@@ -368,7 +368,7 @@ function isMobile() {
 
   }
 }
-
+/* Mobile */
 @media (max-width: 480px) {
   .about {
     width: 100%;
@@ -402,6 +402,7 @@ function isMobile() {
     line-height: 90%;
     color: white;
     margin-top:10%;
+    padding: 5%;
   }
 
   h1 {
@@ -436,7 +437,7 @@ function isMobile() {
   }
 
   box1 {
-    width: 105%;
+    width: 100%;
     background-color: #fbfbfc;
     display:flex;
     flex-direction: column;
@@ -479,7 +480,7 @@ function isMobile() {
   }
 
   box2 {
-    width: 105%;
+    width: 100%;
     background-color: #fbfbfc;
     display:flex;
     flex-direction: column;

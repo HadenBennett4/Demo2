@@ -584,26 +584,30 @@ p1 {
 box2 {
   width: 100%;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   margin-right: 10%;
+  margin-top: -5%;
 }
 
 box {
   background-color: #fbfbfc;
   padding-bottom: 5%;
-  width: 100.45%;
-  display: flex;
+  width: 90%;
+  padding: 10%;
 }
-
+box1{
+  width: 30%;
+  padding-right: 30%;
+}
 h2{
   color: #968b57;
-  font-size: 50px;
+  font-size: 30px;
 
 }
 p2 {
   font-size: 15px;
-
 }
 
 form{
@@ -615,7 +619,7 @@ form{
       align-items: left;
       background-color: #fbfbfc;
       padding-top: 5%;
-      padding-right: 5%;
+      padding-right: 20%;
     }
 
 form-container-child{
@@ -722,7 +726,6 @@ form-container-child{
       width:300px;
       height:300px;
       margin-top: 15%;
-      margin-left: 10%;
     }
 }
 </style>

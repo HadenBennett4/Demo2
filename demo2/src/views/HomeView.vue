@@ -931,14 +931,14 @@ p4 {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    margin-top: -8%;
   }
     .home {
-    width: 103.99999%;  
+    width: 101%;  
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-left:-7px;
   }
   contact{
     display: flex;
@@ -1019,18 +1019,18 @@ p4 {
     margin-left: -7px;
   }
   .homeimg{
-    width: 100%;
+    width: 102%;
     filter:  brightness(70%);
   }
   block1{
-    width:100.98%;
+    width:100%;
     height: 200px;
     background-color: #e7e9ef;
     display: flex;
     flex-direction:row;
     justify-content: center;
     align-items: center;
-    margin-top: -20px;
+    margin-top: -42px;
   }
   block2{
     width:100.98%;

@@ -354,14 +354,15 @@ p4 {
 /*Mobile*/
 @media (max-width: 480px) {
 root{
-  width:100%;
+  width:105%;
   display: flex;
   flex-direction: column;
   overflow-x: hidden;
+  margin-left: -8px;
 }
 header {
   height: 6%;
-  width: 100%;
+  width: 103%;
   top: 0;
   background-color: white;
   position: fixed;

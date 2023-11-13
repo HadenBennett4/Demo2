@@ -109,19 +109,6 @@ function isMobile() {
           <v-icon class="nav-bar-button" @click="setShowNavBar()" name="bi-justify" scale="2" fill="black"/>
   </header>
   <RouterView/>
-  </div>
-  
-  <nav-container v-if="showNavBar===true">
-    <nav>
-        <RouterLink @click="setShowNavBar()" class="router-link" to="/">Home</RouterLink>
-        <RouterLink @click="setShowNavBar()" class="router-link" to="/about">About</RouterLink>
-        <RouterLink @click="setShowNavBar()" class="router-link" to="/services">Services</RouterLink>
-        <RouterLink @click="setShowNavBar()" class="router-link" to="/faq">Faq</RouterLink>
-        <RouterLink @click="setShowNavBar()" class="router-link" to="/gallery">Gallery</RouterLink>
-        <RouterLink @click="setShowNavBar()" class="router-link" to="/contact">Contact</RouterLink>
-      </nav>
-          <v-icon class="nav-bar-button2" @click="setShowNavBar()" name="bi-x-lg" scale="2" fill="white" />
-  </nav-container>
   <footer>
   <footer1>
   <box>
@@ -140,7 +127,7 @@ function isMobile() {
   <box1>
     <h3>Overview</h3>
     <nav1>
-        <RouterLink class="routerlink" to="/">Home</RouterLink>
+        <RouterLink class="routerlink" to="/">Home</RouterLink> 
         <RouterLink class="routerlink" to="/services">Services</RouterLink>
         <RouterLink class="routerlink" to="/gallery">Gallery</RouterLink>
       </nav1>
@@ -158,6 +145,24 @@ function isMobile() {
   <hr class="page-break-line">
   <p4 >Website produced and powered by Duckweed Marketing 2023</p4>
 </footer>
+  </div>
+  
+  <nav-container v-if="showNavBar===true">
+    <nav>
+        <RouterLink @click="setShowNavBar()" class="router-link" to="/">Home</RouterLink>
+        <RouterLink @click="setShowNavBar()" class="router-link" to="/about">About</RouterLink>
+        <RouterLink @click="setShowNavBar()" class="router-link" to="/services">Services</RouterLink>
+        <RouterLink @click="setShowNavBar()" class="router-link" to="/faq">Faq</RouterLink>
+        <RouterLink @click="setShowNavBar()" class="router-link" to="/gallery">Gallery</RouterLink>
+        <RouterLink @click="setShowNavBar()" class="router-link" to="/contact">Contact</RouterLink>
+        <div class="router-link" style="margin-top:20%
+        ">Call us now:</div>
+      <call-now-button>(469)734-7027</call-now-button>
+      </nav>
+
+          <v-icon class="nav-bar-button2" @click="setShowNavBar()" name="bi-x-lg" scale="2" fill="white" />
+  </nav-container>
+
 </root>
 </template>
 
@@ -360,6 +365,18 @@ root{
   overflow-x: hidden;
   margin-left: -8px;
 }
+call-now-button{
+  background-color: #968b57;
+  color:#fbfbfc;
+  border-radius:50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding:1%;
+  width:150px;
+  height:30px;
+  margin-top:15px;
+}
 header {
   height: 6%;
   width: 103%;
@@ -376,7 +393,7 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   background-color: #293241;
 }
 
@@ -384,8 +401,7 @@ nav {
   text-decoration: none;
   color: white;
   font-size: 20px;
-  padding-bottom: 10%;
-  margin-top: 10%;
+  margin-top: 15px;
 }
 
 .router-link:hover {
@@ -535,9 +551,10 @@ p4 {
     background-color: #293241;
     fill-opacity: .9;
     width:100%;
-    height:100%;
+    height:932px;
+    padding-top: 20px;
+    overflow-y: hidden;
     margin:0;
-    padding:0;
   }
 }
 </style>

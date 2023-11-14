@@ -146,8 +146,7 @@ function isMobile() {
   <p4 >Website produced and powered by Duckweed Marketing 2023</p4>
 </footer>
   </div>
-  
-  <nav-container v-if="showNavBar===true">
+  <div v-if="showNavBar===true" class="nav-container">
     <nav>
         <RouterLink @click="setShowNavBar()" class="router-link" to="/">Home</RouterLink>
         <RouterLink @click="setShowNavBar()" class="router-link" to="/about">About</RouterLink>
@@ -159,10 +158,8 @@ function isMobile() {
         ">Call us now:</div>
       <call-now-button>(469)734-7027</call-now-button>
       </nav>
-
           <v-icon class="nav-bar-button2" @click="setShowNavBar()" name="bi-x-lg" scale="2" fill="white" />
-  </nav-container>
-
+    </div>
 </root>
 </template>
 
@@ -187,7 +184,6 @@ header {
   font-family: sans-serif;
   font-weight: bold;
   z-index:2;
-  margin-left:-10px;
 }
 
 nav {
@@ -359,11 +355,11 @@ p4 {
 /*Mobile*/
 @media (max-width: 480px) {
 root{
-  width:105%;
+  width:100%;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   overflow-x: hidden;
-  margin-left: -8px;
 }
 call-now-button{
   background-color: #968b57;
@@ -378,7 +374,7 @@ call-now-button{
   margin-top:15px;
 }
 header {
-  height: 6%;
+  height: 50px;
   width: 103%;
   top: 0;
   background-color: white;
@@ -386,7 +382,6 @@ header {
   font-family: sans-serif;
   font-weight: bold;
   z-index:2;
-  margin-left: -10px;
 }
 
 nav {
@@ -455,8 +450,6 @@ footer {
   padding-top: 5%;
   position: relative;
   bottom: 0;
-  margin-left:-0.5%;
-  margin-bottom: -0.5%;
   margin-top: 10%;
   
 }
@@ -546,15 +539,25 @@ p4 {
     top: 0; 
     margin-right:35px;
     margin-top: 10px;
+    
   }
-  nav-container{
+  .nav-container{
     background-color: #293241;
     fill-opacity: .9;
     width:100%;
-    height:932px;
-    padding-top: 20px;
-    overflow-y: hidden;
-    margin:0;
+    height: 100vh;
   }
+  nav {
+    margin: 0;
+    padding: 0;
+  }
+
+}
+</style>
+<style>
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 </style>

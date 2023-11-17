@@ -381,11 +381,11 @@ p {
 }
 p1 {
   font-size: 20px;
-  padding-left: 1%;
+  padding-left: 3%;
 }
 .icons {
-  margin-left: 10%;
-  scale: 3;
+  padding-left: 50%;
+  scale: 2;
 }
 box2 {
   width: 100%;
@@ -398,6 +398,7 @@ box2 {
 box {
   background-color: #fbfbfc;
   padding-bottom: 5%;
+  padding-left: 5%;
   width: 100.45%;
 }
 
@@ -420,7 +421,7 @@ form{
       align-items: left;
       background-color: #fbfbfc;
       padding-top: 5%;
-    
+
     }
 
 form-container-child{

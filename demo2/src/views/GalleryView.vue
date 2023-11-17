@@ -102,7 +102,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 7%;
+    margin-top: 14%;
     background-color: #fbfbfc;
   }
 
@@ -129,6 +129,7 @@
     font-size: 100px;
     color: #968b57;
     margin-bottom: 5px;
+    margin-left: 30%;
   }
 
   demo-vid {

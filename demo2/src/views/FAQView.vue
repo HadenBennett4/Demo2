@@ -165,7 +165,7 @@ function changeShow(i){
           <h3>About Covid-19 Precautions</h3>
           <underline2>bbbbbbbbbbbbbb</underline2>
           <br>
-          <img src="faq2.jpg" style="width: 600px">
+          <img src="faq2.jpg" class="faq2img" style="width:600px">
           </box-child>
 
       </box1>
@@ -422,7 +422,190 @@ answer-block{
   line-height: 1.5;
 }
   }
+/* Tablet */
+  @media (max-width: 1024px) {
+    .faq {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+    color: #fbfbfc;
+    }
 
+    about-image {
+    top:0;
+    width:100%;
+    position:fixed;
+    z-index:-1;
+}
+.faqimg{
+  width:500px;
+  margin-left: 5%;
+}
+ .faq2 {
+  max-width: 500px;
+  margin-left: 5%;
+ }
+.aboutimg {
+  width:100%;
+  filter: brightness(65%);
+}
+container{
+  width:105%;
+  background-color:#fbfbfc;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+box {
+  font-size: 30px;
+  width:100%;
+  height: 200px;
+  text-align: center;
+  margin-top: 8%;
+  
+}
+box1 {
+  width:80%;
+  background-color:#fbfbfc;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 100px;
+
+}
+box-child {
+  width: 45%; 
+}
+h2 {
+ color: #968b57;
+ font-size: 40px;
+ margin-bottom: 1%;
+}
+underline {
+  width:20%;
+  border: 5px solid #000;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  color: #fbfbfc;
+  padding-top: 6%;
+}
+pp {
+  color: black;
+  width: 50%;
+}
+box2 {
+  background-color: #fbfbfc;
+  width: 100.9%;
+  display: flex;
+  flex-direction: row;
+  padding-top: 8%;
+}
+h3 {
+  color: #968b57;
+  font-size: 40px;
+  margin-bottom: 1%;
+}
+underline2 {
+  width:50%;
+  border: 5px solid #000;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  padding-top: -5%;
+  color: #fbfbfc;
+}
+bigbox {
+    width: 100.9%;
+    background-color: #fbfbfc;
+    height: auto;
+    margin-top: -1px;
+  }
+
+  box3 {
+    width: 75%;
+    background-color: #968b57;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    margin-bottom: 8%;
+    margin-left: 8%;
+    border-radius: 15px;
+    padding: 5%;
+    margin-top: 8%;
+  }
+
+
+  h4 {
+    font-size: 30px;
+    color: white;
+  }
+
+  p4 {
+    font-size: 20px;
+    color: white;
+  }
+.router-link{
+  margin-top: 10%;
+  margin-left: 10%;
+  text-decoration: none;
+  background-color: #2c3d57;
+  margin-bottom: auto;
+  color: white;
+  font-size: 20px;
+  align-items: center;
+  padding-top: 20px;
+  padding-left: 40px;
+  padding-bottom: 20px;
+  padding-right: 40px;
+  border-radius: 15px;
+}
+
+faq-block{
+  width: 50%; 
+  display: flex;
+  flex-direction:column;
+}
+question-block{
+  width:550px;
+  height: 60px;
+  background-color:white;
+  border-radius: 1%;
+  box-shadow: 0px 1px 50px -25px black;
+
+  color:#2c3d57;  
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom:25px;
+  margin-top: 30px;
+  margin-left: 0%;
+}
+question-text{
+  margin-left: 15px;
+  font-size:30px;
+}
+.question-icon{
+  margin-right:15px;
+}
+answer-block{
+  width:180%;
+  text-align: left;
+  height:150px;
+  color:#2c3d57;
+  font-size: 18px;
+  align-self: center;
+  line-height: 1.5;
+  margin-left: 120%;
+}
+  }
   /*Mobile*/
   @media (max-width: 480px) {
     .faq {
@@ -521,10 +704,9 @@ bigbox {
   width: 100.9%;
   background-color: #fbfbfc;
   height: auto;
-  margin-left: 13%;
 }
 box3 {
-  width: 90%;
+  width: 80%;
   align-items: center;
   justify-content: center;
   background-color: #968b57;
@@ -532,6 +714,7 @@ box3 {
   flex-direction: column;
   height: 100%;
   border-radius: 15px;
+  margin-left: 25px;
 }
 h4 {
   font-size: 30px;
@@ -577,6 +760,7 @@ question-block{
   justify-content: space-between;
   margin-bottom:25px;
   margin-top: 15px;
+  margin-left: -1px;
 }
 question-text{
   margin-left: 15px;

@@ -21,6 +21,7 @@ function isMobile() {
   return windowWidth.value <=1024;
 };
 
+
  const showNavBar = ref(false);
  const setShowNavBar = () => {
   showNavBar.value = !showNavBar.value;
@@ -351,6 +352,210 @@ p4 {
 }
 }
 
+/* Tablet */
+@media (max-width: 1024px) {
+  root{
+  width:100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+call-now-button{
+  background-color: #968b57;
+  color:#fbfbfc;
+  border-radius:50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding:1%;
+  width:150px;
+  height:30px;
+  margin-top:15px;
+}
+header {
+  height: 7%;
+  width: 103%;
+  top: 0;
+  background-color: white;
+  position: fixed;
+  font-family: sans-serif;
+  font-weight: bold;
+  z-index:2;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #293241;
+}
+
+.router-link {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+.router-link:hover {
+  color:#968b57;
+}
+
+nav a.router-link-exact-active {
+  color: #968b57;
+}
+
+.header-image {
+  width:70px;
+  height:auto;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+
+p {
+  width: 200px;
+  height: 20px;
+  font-size: 15px;
+  display: flex;
+  background-color: #968b57;
+  padding: 0.5%;
+  border-radius: 20px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+.icons {
+  display: flex;
+  flex-direction: row;
+  padding: 20%;
+}
+boxy {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width:500px;
+}
+
+footer {
+  width: 100.98%;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #2c3d57;
+  padding-top: 5%;
+  position: relative;
+  bottom: 0;
+  margin-top: 10%;
+  
+}
+footer1 {
+  width: 90%;
+  height: 50vh;
+  align-items: center;
+  justify-content: center;
+}
+box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 30%;
+}
+h2 {
+  width: 100%;
+  color: #fbfbfc;
+  font-size: 30px;
+  font-weight: normal;
+}
+p2 {
+  width: 100%;
+  color:#fbfbfc;
+  font-size: 10px;
+  padding-bottom: 5%;
+}
+.iconic {
+  padding-right:10%;
+}
+tinybox {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10%;
+  margin-bottom: -5%;
+}
+bigbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 20%;
+}
+box1 {
+display: flex;
+flex-direction: column;
+width: 50%;
+margin: 5%;
+margin-left: 0px;
+}
+h3 {
+  color: #fbfbfc; 
+  font-size: 15px;
+  margin-bottom: 5%;
+  padding-top: 10px;
+}
+box3 {
+  width: 50%;
+}
+h5 {
+  color: #fbfbfc;
+  font-size: 15px;
+  margin-bottom: 5%;
+}
+.routerlink{
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: #fbfbfc;
+  margin-bottom: 5%;
+  font-size: 10px;
+}
+.page-break-line {
+  width: 80%;
+}
+p4 {
+  color: #fbfbfc;
+  padding-top: 1%;
+  padding-bottom: 5%;
+  font-size: 10px;
+}
+.nav-bar-button2{
+  position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 2%;
+    margin-right: 2%;
+}
+.nav-bar-button{
+    position: absolute;
+    right: 0;
+    top: 0; 
+    margin-right:35px;
+    margin-top: 10px;
+    
+  }
+  .nav-container{
+    background-color: #293241;
+    fill-opacity: .9;
+    width:100%;
+    height: 100vh;
+  }
+  nav {
+    margin: 0;
+    padding: 0;
+  }
+}
 
 /*Mobile*/
 @media (max-width: 480px) {
@@ -374,7 +579,7 @@ call-now-button{
   margin-top:15px;
 }
 header {
-  height: 50px;
+  height: 7%;
   width: 103%;
   top: 0;
   background-color: white;
@@ -410,8 +615,6 @@ nav a.router-link-exact-active {
 .header-image {
   width:50px;
   height:auto;
-  margin-left: 5%;
-  margin-top: 3%;
 }
 
 p {
@@ -458,6 +661,7 @@ footer1 {
   height: 50vh;
   align-items: center;
   justify-content: center;
+  margin-left: -70px;
 }
 box {
   display: flex;
@@ -488,12 +692,14 @@ bigbox {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-left: 10%;
+  margin-left: 0%;
 }
 box1 {
 display: flex;
 flex-direction: column;
 width: 50%;
+margin: 5%;
+margin-left: 0px;
 }
 h3 {
   color: #fbfbfc; 

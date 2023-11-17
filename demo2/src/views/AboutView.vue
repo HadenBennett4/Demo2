@@ -34,21 +34,12 @@ function isMobile() {
         <p>Bring you care with over 30 years of experience</p>
       </container>
       <box>
-        <a href="https://www.nationalgeographic.com/" target="_blank" class="icons">
-          <v-icon name="bi-facebook" scale="2" fill="white" />
+          <v-icon name="bi-facebook" scale="2" fill="white" class="icons"/>
           <p1>Over 30 years of healthcare expirience</p1>
-        </a>
-
-        <a href="https://www.nationalgeographic.com/" target="_blank" class="icons">
-          <v-icon name="bi-linkedin" scale="2" fill="white" />
+          <v-icon name="bi-linkedin" scale="2" fill="white" class="icons"/>
           <p1>Quality Care Services</p1>
-        </a>
-
-        <a href="https://www.nationalgeographic.com/" target="_blank" class="icons">
-          <v-icon name="bi-facebook" scale="2" fill="white" />
+          <v-icon name="bi-facebook" scale="2" fill="white" class="icons"/>
           <p1>Highly expirenced employees</p1>
-        </a>
-
       </box>
       <box1>
         <box-child>
@@ -96,17 +87,11 @@ function isMobile() {
         <p>Bring you care with over 30 years of experience</p>
       </container>
       <box>
-        <a href="https://www.nationalgeographic.com/" target="_blank" class="icons">
-          <v-icon name="bi-facebook" scale="3" fill="white" />
-        </a>
+          <v-icon name="bi-facebook" scale="3" fill="white" class="icons"/>
         <p1>Over 30 years of healthcare expirience</p1>
-        <a href="https://www.nationalgeographic.com/" target="_blank" class="icons">
-          <v-icon name="bi-linkedin" scale="3" fill="white" />
-        </a>
+          <v-icon name="bi-linkedin" scale="3" fill="white" class="icons"/>
         <p1>Quality Care Services</p1>
-        <a href="https://www.nationalgeographic.com/" target="_blank" class="icons">
-          <v-icon name="bi-facebook" scale="3" fill="white" />
-        </a>
+          <v-icon name="bi-facebook" scale="3" fill="white" class="icons"/>
         <p1>Highly expirenced employees</p1>
       </box>
       <box1>
@@ -325,6 +310,226 @@ function isMobile() {
 
   h4 {
     font-size: 40px;
+    color: white;
+  }
+
+  p4 {
+    font-size: 20px;
+    color: white;
+  }
+
+  .router-link {
+    margin-top: 10%;
+    margin-left: 10%;
+    text-decoration: none;
+    background-color: #2c3d57;
+    margin-bottom: auto;
+    color: white;
+    font-size: 20px;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    border-radius: 15px;
+  }
+
+  underline {
+    width: 20%;
+    border: 5px solid #000;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    color: #fbfbfc;
+  }
+
+  underline2 {
+    width: 15%;
+    border: 5px solid #000;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    color: #fbfbfc;
+
+  }
+}
+/* Tablet */
+@media (max-width: 1024px) {
+  .about {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+  }
+
+  about-image {
+    top: 0;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+  }
+
+  .aboutimg {
+    width: 100%;
+    filter: brightness(70%);
+  }
+  box3-child {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+    margin-bottom: 5%;
+  }
+
+  container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8%;
+    color: white;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  box {
+    width: 65%;
+    height: 140px;
+    margin-top: 8%;
+    background-color: #2c3d57;
+    padding-top: 2%;
+    padding-left: 4%;
+    margin-bottom: -70px;
+    z-index: 0;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  p1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    align-items: center;
+    margin-left: 15%;
+    margin-top: -7%;
+    margin-bottom: 4%;
+  }
+
+  box1 {
+    width: 100.9%;
+    background-color: #fbfbfc;
+    padding-top: 8%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  box-child {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 12%;
+    padding-right: 12%;
+  }
+
+  h2 {
+    font-size: 40px;
+    font-weight: normal;
+    color: #2c3d57;
+    margin-bottom: 1%;
+  }
+
+  p2 {
+    font-size: 22px;
+    color: #2c3d57;
+    background-color: white;
+    padding: 10%;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    border: 10px solid #2c3d57;
+    border-bottom: none;
+    border-left: none;
+    box-shadow: 0px 10px 10px 0px #888888;
+  }
+
+  about-image1 {
+    padding-right: 20%;
+  }
+
+  box2 {
+    background-color: #fbfbfc;
+    width: 100.9%;
+    padding-top: 8%;
+    margin-top: -1px;
+  }
+
+  box-child1 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-bottom: 10%;
+  }
+
+  h3 {
+    font-size: 40px;
+    font-weight: normal;
+    color: #2c3d57;
+    margin-bottom: 1%;
+  }
+
+  p3 {
+    font-size: 22px;
+    color: #2c3d57;
+    background-color: white;
+    padding: 10%;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    border: 10px solid #2c3d57;
+    border-bottom: none;
+    border-right: none;
+    box-shadow: 5px 5px 10px#888888;
+  }
+
+  about-image2 {
+    padding-left: 20%;
+    padding-top: 8%;
+
+  }
+
+  bigbox {
+    width: 100.9%;
+    background-color: #fbfbfc;
+    height: auto;
+    margin-top: -1px;
+  }
+
+  box3 {
+    width: 75%;
+    background-color: #968b57;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    margin-bottom: 8%;
+    margin-left: 8%;
+    border-radius: 15px;
+    padding: 5%;
+    margin-top: 8%;
+  }
+
+
+  h4 {
+    font-size: 30px;
     color: white;
   }
 

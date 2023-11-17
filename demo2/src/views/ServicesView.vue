@@ -128,7 +128,7 @@ function isMobile() {
         </ul>
       </box-child>
       <about-image1>
-        <img src="serviceimage.jpg" style="width: 325px;">
+        <img src="serviceimage.jpg" style="width: 325px; margin-left: -130px;">
       </about-image1>
     </box1>
     <box1>
@@ -145,7 +145,7 @@ function isMobile() {
         </ul>
       </box-child>
       <about-image1>
-        <img src="serviceimage2.jpg" style="width: 200px;" />
+        <img src="serviceimage2.jpg" style="width: 300px; margin-left: -130px;" />
       </about-image1>
     </box1>
 
@@ -437,6 +437,257 @@ function isMobile() {
   }
 
 }
+/* Tablet */
+@media (max-width: 1024px) {
+  .Services {
+    min-height: 120vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+    color: #fbfbfc;
+  }
+
+  about-image {
+    top: 0;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+    margin-top: 15%;
+  }
+
+  .aboutimg {
+    width: 100%;
+    filter: brightness(60%);
+  }
+
+  container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    color: white;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 20px;
+    margin-bottom: 20%;
+  }
+
+  p1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2%;
+    font-size: 20px;
+    align-items: center;
+  }
+
+  box1 {
+    width: 100.9%;
+    background-color: #fbfbfc;
+    padding-top: 8%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -1px;
+  }
+
+  box4 {
+    width: 100.9%;
+    background-color: #fbfbfc;
+    padding-top: 8%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  box-child {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding-left: 12%;
+    padding-right: 5%;
+    margin-left: 5%;
+
+  }
+
+  box-child3 {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding-left: 12%;
+    padding-right: 5%;
+    margin-left: 5%;
+    margin-top: -5%;
+  }
+
+  h2 {
+    font-size: 40px;
+    font-weight: normal;
+    color: #2c3d57;
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-decoration-color: black;
+    padding-left: 10%;
+  }
+
+  h5 {
+    font-size: 40px;
+    font-weight: normal;
+    color: #2c3d57;
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-decoration-color: black;
+    padding-left: 10%;
+  }
+
+  p2 {
+    font-size: 22px;
+    color: #2c3d57;
+    padding: 10%;
+    padding-top: 0%;
+    border: #2c3d57;
+    line-height: 2;
+  }
+
+  p5 {
+    font-size: 22px;
+    color: #2c3d57;
+    padding: 10%;
+    padding-top: 0%;
+    ;
+    border: #2c3d57;
+    line-height: 2;
+  }
+
+  about-image1 {
+    margin-top: 5%;
+    margin-left: 50%;
+  }
+
+
+  box2 {
+    display: flex;
+    flex-direction: row;
+    background-color: #fbfbfc;
+    width: 100.9%;
+    margin: 5%;
+  }
+
+  box-child1 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-right: 15%;
+    margin-right: 5%;
+  }
+
+  h3 {
+    font-size: 40px;
+    font-weight: normal;
+    color: #2c3d57;
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-decoration-color: black;
+    padding-left: 10%;
+    padding-top: 10%;
+  }
+
+  p3 {
+    font-size: 22px;
+    color: #2c3d57;
+    padding: 10%;
+    padding-top: 0%;
+    padding-bottom: 15%;
+    line-height: 2;
+  }
+
+  bigbox {
+    width: 100.9%;
+    background-color: #fbfbfc;
+    height: auto;
+    margin-top: -1px;
+  }
+
+  box3 {
+    width: 75%;
+    background-color: #968b57;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    margin-bottom: 8%;
+    margin-left: 8%;
+    border-radius: 15px;
+    padding: 5%;
+    margin-top: 8%;
+  }
+
+
+  h4 {
+    font-size: 30px;
+    color: white;
+  }
+
+  p4 {
+    font-size: 20px;
+    color: white;
+  }
+  .router-link {
+    margin-top: 10%;
+    margin-left: 10%;
+    text-decoration: none;
+    background-color: #2c3d57;
+    margin-bottom: auto;
+    color: white;
+    font-size: 20px;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    border-radius: 15px;
+  }
+
+  h6 {
+    font-size: 25px;
+    margin-left: 10%;
+    margin-top: -5%;
+  }
+
+  h7 {
+    font-size: 25px;
+    margin-left: 10%;
+    padding-bottom: 7%;
+  }
+
+  h8 {
+    font-size: 25px;
+    margin-left: 10%;
+    padding-bottom: 7%;
+  }
+
+  .checklist {
+    list-style: none;
+    font-size: 22px;
+    line-height: 2em;
+    color: #2c3d57;
+    margin-top: -5%;
+  }
+
+  .checklist li::before {
+    content: '\2713';
+    color: black;
+    margin-right: 20px;
+  }
+
+}
 /* Mobile */
 @media (max-width: 480px) {
   .Services {
@@ -475,7 +726,7 @@ function isMobile() {
 
   h1 {
     font-size: 40px;
-    margin-left: 5%;
+    margin-left: 8%;
   }
 
   p {
@@ -533,7 +784,7 @@ function isMobile() {
     text-decoration: underline;
     text-decoration-thickness: 5px;
     text-decoration-color: black;
-    padding-left: 10%;
+    margin-left: -8%;
   }
 
   h5 {
@@ -543,7 +794,7 @@ function isMobile() {
     text-decoration: underline;
     text-decoration-thickness: 5px;
     text-decoration-color: black;
-    padding-left: 10%;
+    margin-left: -8%;
   }
 
   p2 {
@@ -553,6 +804,7 @@ function isMobile() {
     padding-top: 0%;
     border: #2c3d57;
     line-height: 2;
+    margin-left: -8%;
   }
 
   p5 {
@@ -560,16 +812,14 @@ function isMobile() {
     color: #2c3d57;
     padding: 10%;
     padding-top: 0%;
-    ;
+    margin-left: -8%;
     border: #2c3d57;
     line-height: 2;
   }
 
-  about-image1 {
-  }
 
   about-image3 {
-    padding-right: 20%;
+    padding-left: 20%;
   }
 
   box2 {
@@ -595,8 +845,8 @@ function isMobile() {
     text-decoration: underline;
     text-decoration-thickness: 5px;
     text-decoration-color: black;
-    padding-left: 10%;
     padding-top: 10%;
+    margin-left: -8%;
   }
 
   p3 {
@@ -606,11 +856,11 @@ function isMobile() {
     padding-top: 0%;
     padding-bottom: 15%;
     line-height: 2;
+    margin-left: -8%;
   }
 
   about-image2 {
-    padding-left: 20%;
-    padding-top: 8%;
+    margin-left: -10%;
   }
 
   bigbox {
@@ -623,13 +873,14 @@ function isMobile() {
   }
 
   box3 {
-    width: 80%;
+    width: 70%;
     background-color: #968b57;
     display: flex;
     flex-direction: column; 
     align-items: center;
     justify-content: center;
     border-radius: 15px;
+    margin-left: -5px;
   }
 
   box-child2 {

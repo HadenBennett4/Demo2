@@ -555,10 +555,13 @@ p4 {
     font-size: 18px;
     margin-left: 10px;
   }
+  .i-con {
+    scale: 0.7;
+  }
   circ{
     background-color: #2c3d57;
-    width: 70px;
-    height:70px;
+    width: 50px;
+    height:50px;
     border-radius: 100%;
     display: flex;
     align-items: center;
@@ -596,7 +599,7 @@ p4 {
     opacity: .5;
     align-self: center;
     bottom: 200px;
-    margin-top:75px;
+    margin-top:25px;
   }
   home-container{
     display: flex;
@@ -605,10 +608,10 @@ p4 {
     align-items: left;
     width: 90%;
     text-align: left;
-    margin-top:125px;
+    margin-top:55px;
   }
   header-text{
-    font-size:50px;
+    font-size:40px;
     color: white;
     padding: 10px;
   }
@@ -631,20 +634,20 @@ p4 {
     font-size: 15px;
     color:white;
     text-decoration: none;
-    margin-left: 40px;
+    margin-left: 30px;
   }
   but{
-    width:150px;
+    width:130px;
     height: 30px;
     border-radius: 10px;
-    margin-right: 1%;
+    margin-right: 2%;
     background-color: #2c3d57;
   }
   but:hover{
     background-color: #968b57;
   }
   but2{
-    width:150px;
+    width:130px;
     height: 30px;
     border-radius: 10px;
     background-color: #4c4845;
@@ -663,19 +666,20 @@ p4 {
   }
   block1{
     width:100.98%;
-    height: 300px;
+    height: 301px;
     background-color: #e7e9ef;
     display: flex;
     flex-direction:row;
     justify-content: center;
     align-items: center;
+    margin-top: -2%;
   }
   block2{
     width:100.98%;
-    height: 800px;
+    height: 801px;
     background-color:#fbfbfc;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     padding-top: 2%;
@@ -685,7 +689,7 @@ p4 {
     margin-left: 5%;
   }
   block2-text-box{
-    width: 30%;
+    width: 70%;
     padding: 1%;
     background-color: white;
     border-top-style: solid;
@@ -749,10 +753,12 @@ p4 {
     flex-direction: column;
     width: 100.98%;
     align-items: center;
+    margin-top: -2px;
   }
   block4-header {
     font-size: 40px;
     color: #2c3d57;
+    margin-left: 7%;
   }
   underline {
     color: #fbfbfc;
@@ -823,6 +829,7 @@ p4 {
   width: 100.98%;
   background-color: #fbfbfc;
   height: auto;
+  margin-top: -1%;
 }
 
 box3 {
@@ -939,6 +946,7 @@ p4 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: 5%;
   }
   contact{
     display: flex;

@@ -502,7 +502,7 @@ form-container-child{
     }
 
     .submit-button{
-      width: 25%;
+      width: 35%;
       height:15%;
       display: flex;
       align-items: center;

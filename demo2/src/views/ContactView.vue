@@ -527,7 +527,7 @@ form-container-child{
     #google-map{
       width:300px;
       height:300px;
-      margin-right: 75px;
+      margin-right: 50px;
     }
 }
 /*Mobile*/

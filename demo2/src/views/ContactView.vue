@@ -143,7 +143,7 @@ export default defineComponent({
 <style scoped>
 
 
-@media (min-width: 1024px) {
+@media (min-width: 1025px) {
   .contact{
     width: 100%;
     display: flex;
@@ -334,11 +334,11 @@ form-container-child{
     #google-map{
       width:400px;
       height:400px;
-      margin-right: 200px;
+      margin-right: 20%;
     }
 }
 /*Tablet*/
-@media (max-width: 1024px) {
+@media  (min-width:480px) and (max-width: 1024px) {
   .contact{
     width: 100%;
     display: flex;
@@ -527,11 +527,11 @@ form-container-child{
     #google-map{
       width:300px;
       height:300px;
-      margin-right: 50px;
+      margin-right: 15%;
     }
 }
 /*Mobile*/
-@media (max-width: 480px) {
+@media  (min-width:0px) and (max-width: 479px) {
   .contact{
     width: 100%;
     display: flex;
@@ -727,6 +727,7 @@ form-container-child{
       width:300px;
       height:300px;
       margin-top: 15%;
+      margin-right: 20%;
     }
 }
 </style>

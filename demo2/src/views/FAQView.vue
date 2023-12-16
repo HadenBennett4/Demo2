@@ -243,7 +243,7 @@ function changeShow(i){
   </template>
   
   <style scoped>
-  @media (min-width: 1024px) {
+  @media (min-width: 1025px) {
     .faq {
     display: flex;
     align-items: center;
@@ -423,7 +423,7 @@ answer-block{
 }
   }
 /* Tablet */
-  @media (max-width: 1024px) {
+  @media  (min-width:480px) and (max-width: 1024px) {
     .faq {
     display: flex;
     align-items: center;
@@ -442,7 +442,6 @@ answer-block{
 }
 .faqimg{
   width:500px;
-  margin-left: 5%;
 }
  .faq2 {
   max-width: 500px;
@@ -467,7 +466,7 @@ box {
   width:100%;
   height: 200px;
   text-align: center;
-  margin-top: 8%;
+  margin-top: 10%;
   
 }
 box1 {
@@ -475,9 +474,8 @@ box1 {
   background-color:#fbfbfc;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  margin-top: 100px;
-
+  margin-top: 50px;
+  margin-left: 20%;
 }
 box-child {
   width: 45%; 
@@ -607,7 +605,7 @@ answer-block{
 }
   }
   /*Mobile*/
-  @media (max-width: 480px) {
+  @media  (min-width:0px) and (max-width: 479px) {
     .faq {
     display: flex;
     align-items: center;
@@ -647,8 +645,8 @@ box {
   font-size: 15px;
   width:100%;
   text-align: center;
-  margin-top: 5%;
-  padding-bottom: 20%;
+  margin-top: 10%;
+  padding-bottom: 10%;
 }
 box1 {
   width:85%;
@@ -708,13 +706,13 @@ bigbox {
 box3 {
   width: 80%;
   align-items: center;
-  justify-content: center;
   background-color: #968b57;
   display: flex;
   flex-direction: column;
   height: 100%;
   border-radius: 15px;
-  margin-left: 25px;
+  margin-left: 10%;
+  text-align: center;
 }
 h4 {
   font-size: 30px;
@@ -725,7 +723,7 @@ p4 {
 }
 .router-link{
   margin-top: 10%;
-  margin-left: 10%;
+  margin-left: 0%;
   text-decoration: none;
   background-color: #2c3d57;
   margin-bottom: auto;

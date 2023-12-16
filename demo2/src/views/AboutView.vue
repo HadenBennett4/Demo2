@@ -135,7 +135,7 @@ function isMobile() {
 </template>
 
 <style scoped>
-@media (min-width: 1024px) {
+@media (min-width: 1025px) {
   .about {
     width: 100%;
     display: flex;
@@ -354,7 +354,7 @@ function isMobile() {
   }
 }
 /* Tablet */
-@media (max-width: 1024px) {
+@media (min-width:480px) and (max-width: 1024px) {
   .about {
     width: 100%;
     display: flex;
@@ -574,7 +574,7 @@ function isMobile() {
   }
 }
 /* Mobile */
-@media (max-width: 480px) {
+@media (min-width:0px) and (max-width: 479px) {
   .about {
     width: 100%;
     display: flex;

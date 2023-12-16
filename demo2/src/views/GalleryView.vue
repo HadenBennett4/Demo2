@@ -47,7 +47,7 @@
 </template>
   
 <style scoped>
-@media (min-width: 1024px) {
+@media (min-width: 1025px) {
   gallery {
     width: 100%;
     display: flex;
@@ -95,14 +95,14 @@
 }
 
 /*tablet*/
-@media (max-width: 1024px) {
+@media  (min-width:480px) and (max-width: 1024px) {
   gallery {
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 14%;
+    margin-top: 10%;
     background-color: #fbfbfc;
   }
 
@@ -147,7 +147,7 @@
 }
 
 /*mobile*/
-@media (max-width: 480px) {
+@media  (min-width:0px) and (max-width: 479px) {
   gallery {
     width: 100%;
     display: flex;

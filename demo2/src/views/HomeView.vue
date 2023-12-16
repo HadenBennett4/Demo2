@@ -74,7 +74,7 @@ function navigateToServices(){
 </block1>
 <block2>
   <block2-image>
-    <img src="aboutimage.jpg">
+    <img src="aboutimage.jpg" class="homeimg1">
   </block2-image>
   <block2-text-box>
    <div style="padding:15px;">
@@ -184,7 +184,7 @@ function navigateToServices(){
 </template>
 
 <style scoped>
-@media (min-width: 1024px) {
+@media (min-width: 1025px) {
   mtext{
     color: white;
     font-size: 30px;
@@ -549,7 +549,7 @@ p4 {
   }
 }
 /*Tablet*/
-@media (max-width: 1024px) {
+@media  (min-width:480px) and (max-width: 1024px) {
   mtext{
     color: white;
     font-size: 18px;
@@ -579,7 +579,8 @@ p4 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100%;  
+    width: 100%;
+    margin-top: 8%;
   }
   contact{
     display: flex;
@@ -915,7 +916,7 @@ p4 {
   }
 }
 /*Mobile*/
-@media (max-width: 480px) {
+@media  (min-width:0px) and (max-width: 479px) {
   mtext{
     color: white;
     font-size: 10px;
@@ -1021,14 +1022,13 @@ p4 {
     background-color: #726d6a;
   }
   home-image{
-    width: 100%;
     position:fixed;
     z-index:-1;
-    margin-left: -7px;
   }
   .homeimg{
-    width: 102%;
+    width: 100%;
     filter:  brightness(70%);
+    height: 300px;
   }
   block1{
     width:100%;
@@ -1050,9 +1050,8 @@ p4 {
     align-items: center;
     padding-top: 2%;
   }
-  block2-image{
-    width:50%;
-    margin-left: 5%;
+  .homeimg1 {
+    width: 200px;
   }
   block2-text-box{
     width: 65%;
@@ -1189,7 +1188,7 @@ p4 {
     padding: 1%;
   }
   bigbox {
-  width: 100.98%;
+  width: 100%;
   background-color: #fbfbfc;
   height: auto;
 }
@@ -1202,14 +1201,13 @@ p4 {
     margin-top: 3%;
   }
 box3 {
-  width: 65%;
+  width: 80%;
   align-items: center;
-  justify-content: center;
   background-color: #968b57;
   display: flex;
   flex-direction: column;
-  height: 100%;
   border-radius: 15px;
+  margin-left: 10%;
 }
 
 box-child2 {

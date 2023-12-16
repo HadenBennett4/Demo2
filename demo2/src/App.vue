@@ -27,7 +27,7 @@ function isMobile() {
   showNavBar.value = !showNavBar.value;
   console.log(showNavBar.value)
  };
-</script>
+</script> 
 
 <template>
   <root v-if="!isMobile()">
@@ -166,7 +166,7 @@ function isMobile() {
 
 <style scoped>
 /* desktop */
-@media (min-width: 1024px) {
+@media (min-width: 1025px) {
 root{
   display: flex;
   flex-direction: column;
@@ -353,7 +353,7 @@ p4 {
 }
 
 /* Tablet */
-@media (max-width: 1024px) {
+@media (min-width: 480px) and (max-width:1024px) {
   root{
   width:100%;
   height: 100vh;
@@ -375,7 +375,7 @@ call-now-button{
 }
 header {
   height: 7%;
-  width: 103%;
+  width: 100%;
   top: 0;
   background-color: white;
   position: fixed;
@@ -410,8 +410,7 @@ nav a.router-link-exact-active {
 .header-image {
   width:70px;
   height:auto;
-  padding-left: 30px;
-  padding-top: 10px;
+  margin: 3%;
 }
 
 p {
@@ -441,7 +440,7 @@ boxy {
 
 footer {
   width: 100.98%;
-  height: 350px;
+  height: 450px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -450,7 +449,6 @@ footer {
   padding-top: 5%;
   position: relative;
   bottom: 0;
-  margin-top: 10%;
   
 }
 footer1 {
@@ -463,7 +461,7 @@ box {
   display: flex;
   flex-direction: column;
   width: 100%;
-  margin-left: 30%;
+  text-align: center;
 }
 h2 {
   width: 100%;
@@ -478,12 +476,12 @@ p2 {
   padding-bottom: 5%;
 }
 .iconic {
-  padding-right:10%;
+  margin-left: 5%;
 }
 tinybox {
   display: flex;
   flex-direction: row;
-  margin-left: 10%;
+  margin-left: 40%;
   margin-bottom: -5%;
 }
 bigbox {
@@ -540,9 +538,10 @@ p4 {
 .nav-bar-button{
     position: absolute;
     right: 0;
-    top: 0; 
-    margin-right:35px;
-    margin-top: 10px;
+    top: 0;
+    margin-top: 2%;
+    margin-right: 2%;
+
     
   }
   .nav-container{
@@ -550,6 +549,7 @@ p4 {
     fill-opacity: .9;
     width:100%;
     height: 100vh;
+
   }
   nav {
     margin: 0;
@@ -558,7 +558,7 @@ p4 {
 }
 
 /*Mobile*/
-@media (max-width: 480px) {
+@media (min-width:0px) and (max-width: 479px) {
 root{
   width:100%;
   height: 100vh;
@@ -615,6 +615,7 @@ nav a.router-link-exact-active {
 .header-image {
   width:50px;
   height:auto;
+  margin: 15px;
 }
 
 p {
@@ -643,7 +644,7 @@ boxy {
 }
 
 footer {
-  width: 100.98%;
+  width: 100%;
   height: 300px;
   display: flex;
   flex-direction: column;
@@ -691,15 +692,12 @@ tinybox {
 bigbox {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  margin-left: 0%;
 }
 box1 {
 display: flex;
 flex-direction: column;
 width: 50%;
-margin: 5%;
-margin-left: 0px;
+margin-left: 20%;
 }
 h3 {
   color: #fbfbfc; 

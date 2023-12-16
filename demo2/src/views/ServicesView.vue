@@ -128,7 +128,7 @@ function isMobile() {
         </ul>
       </box-child>
       <about-image1>
-        <img src="serviceimage.jpg" style="width: 325px; margin-left: -130px;">
+        <img src="serviceimage.jpg" style="width: 325px; margin-left: 30px;">
       </about-image1>
     </box1>
     <box1>
@@ -145,7 +145,7 @@ function isMobile() {
         </ul>
       </box-child>
       <about-image1>
-        <img src="serviceimage2.jpg" style="width: 300px; margin-left: -130px;" />
+        <img src="serviceimage2.jpg" style="width: 300px; margin-left: 30px;" />
       </about-image1>
     </box1>
 
@@ -177,7 +177,7 @@ function isMobile() {
 </template>
 
 <style scoped>
-@media (min-width: 1024px) {
+@media (min-width: 1025px) {
   .Services {
     min-height: 120vh;
     width: 100%;
@@ -438,7 +438,7 @@ function isMobile() {
 
 }
 /* Tablet */
-@media (max-width: 1024px) {
+@media (min-width:480px) and (max-width: 1024px) {
   .Services {
     min-height: 120vh;
     width: 100%;
@@ -456,7 +456,6 @@ function isMobile() {
     width: 100%;
     position: fixed;
     z-index: -1;
-    margin-top: 15%;
   }
 
   .aboutimg {
@@ -569,7 +568,7 @@ function isMobile() {
 
   about-image1 {
     margin-top: 5%;
-    margin-left: 50%;
+    margin-left: 30%;
   }
 
 
@@ -689,7 +688,7 @@ function isMobile() {
 
 }
 /* Mobile */
-@media (max-width: 480px) {
+@media  (min-width:0px) and (max-width: 479px) {
   .Services {
     min-height: 120vh;
     width: 100%;
@@ -719,19 +718,19 @@ function isMobile() {
     display: flex;
     flex: 1;
     flex-direction: column;
-    justify-content: center;
+    text-align: center;
     align-items: center;
     color: white;
+    margin-top: 30px;
   }
 
   h1 {
     font-size: 40px;
-    margin-left: 8%;
   }
 
   p {
     font-size: 20px;
-    margin-bottom: 20%;
+    margin-bottom: 10%;
   }
 
   p1 {
@@ -743,13 +742,12 @@ function isMobile() {
   }
 
   box1 {
-    width: 105%;
+    width: 100%;
     background-color: #fbfbfc;
     padding-top: 8%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    padding-left: 10%;
   }
 
   box4 {
@@ -757,7 +755,7 @@ function isMobile() {
     background-color: #fbfbfc;
     padding-top: 8%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
   }
 
   box-child {
@@ -784,7 +782,6 @@ function isMobile() {
     text-decoration: underline;
     text-decoration-thickness: 5px;
     text-decoration-color: black;
-    margin-left: -8%;
   }
 
   h5 {
@@ -794,7 +791,6 @@ function isMobile() {
     text-decoration: underline;
     text-decoration-thickness: 5px;
     text-decoration-color: black;
-    margin-left: -8%;
   }
 
   p2 {
@@ -819,7 +815,7 @@ function isMobile() {
 
 
   about-image3 {
-    padding-left: 20%;
+    padding-left: 10%;
   }
 
   box2 {
@@ -846,7 +842,6 @@ function isMobile() {
     text-decoration-thickness: 5px;
     text-decoration-color: black;
     padding-top: 10%;
-    margin-left: -8%;
   }
 
   p3 {
@@ -860,7 +855,7 @@ function isMobile() {
   }
 
   about-image2 {
-    margin-left: -10%;
+    margin-left: 10%;
   }
 
   bigbox {
@@ -870,48 +865,43 @@ function isMobile() {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: -1px;
   }
 
   box3 {
-    width: 70%;
-    background-color: #968b57;
-    display: flex;
-    flex-direction: column; 
-    align-items: center;
-    justify-content: center;
-    border-radius: 15px;
-    margin-left: -5px;
-  }
+  width: 80%;
+  align-items: center;
+  background-color: #968b57;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border-radius: 15px;
+  margin-left: 25px;
+  text-align: center;
+}
+h4 {
+  font-size: 30px;
+}
 
-  box-child2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: white;
-    padding-bottom: 5%;
-  }
-
-  h4 {
-    font-size: 40px;
-  }
-
-  p4 {
-    font-size: 20px;
-  }
-
-  .router-link {
-    text-decoration: none;
-    background-color: #2c3d57;
-    margin-bottom: auto;
-    color: white;
-    font-size: 20px;
-    align-items: center;
-    padding:5%;
-    margin-bottom:5%;
-    border-radius: 15px;
-  }
+p4 {
+  font-size: 15px;
+}
+.router-link{
+  margin-top: 10%;
+  margin-left: 0%;
+  text-decoration: none;
+  background-color: #2c3d57;
+  margin-bottom: auto;
+  color: white;
+  font-size: 20px;
+  align-items: center;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-bottom: 10px;
+  padding-right: 30px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
 
   h6 {
     font-size: 25px;

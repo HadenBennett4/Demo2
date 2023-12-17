@@ -36,7 +36,7 @@
 
     <demo-vid>
       <video controls>
-        <source src="video.mp4" type="video/mp4">
+        <source src="/video.mp4" type="video/mp4">
         <!-- You can add additional <source> elements for different video formats here -->
         Your browser does not support the video tag.
       </video>

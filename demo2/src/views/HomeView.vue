@@ -8,7 +8,7 @@ function navigateToServices(){
 
 <template>
       <home-image>
-      <img class="homeimg" src="stock6.jpg"/>
+      <img class="homeimg" src="/stock6.jpg"/>
     </home-image>
   <div class="home">
 

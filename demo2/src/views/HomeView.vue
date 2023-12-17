@@ -74,7 +74,7 @@ function navigateToServices(){
 </block1>
 <block2>
   <block2-image>
-    <img src="aboutimage.jpg" class="/homeimg1">
+    <img src="/aboutimage.jpg" class="homeimg1">
   </block2-image>
   <block2-text-box>
    <div style="padding:15px;">

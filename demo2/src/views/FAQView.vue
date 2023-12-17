@@ -35,7 +35,7 @@ function changeShow(i){
 <template>
     <div class="faq">
       <about-image>
-      <img src="stock4.jpg" class="aboutimg"/>
+      <img src="/stock4.jpg" class="aboutimg"/>
     </about-image>
     <box>
       <h1>Frequently Asked Questions</h1>
@@ -45,7 +45,7 @@ function changeShow(i){
         <box-child>
         <h2>Questions? <br><br>
         <underline>.....</underline></h2>
-        <img src="faq.jpg" class="faqimg">
+        <img src="/faq.jpg" class="faqimg">
       </box-child>
       <faq-block>
 
@@ -165,7 +165,7 @@ function changeShow(i){
           <h3>About Covid-19 Precautions</h3>
           <underline2>bbbbbbbbbbbbbb</underline2>
           <br>
-          <img src="faq2.jpg" class="faq2img" style="width:600px">
+          <img src="/faq2.jpg" class="faq2img" style="width:600px">
           </box-child>
 
       </box1>
@@ -174,7 +174,7 @@ function changeShow(i){
           <h3>About Covid-19 Precautions</h3>
           <underline2>bbbbbbbbbbbbbb</underline2>
           <br>
-          <img src="faq2.jpg" class="faq2">
+          <img src="/faq2.jpg" class="faq2">
           </box-child>
         <faq-block>
           <question-block @click="changeShow(6)">

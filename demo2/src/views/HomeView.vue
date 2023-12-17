@@ -74,7 +74,7 @@ function navigateToServices(){
 </block1>
 <block2>
   <block2-image>
-    <img src="aboutimage.jpg" class="homeimg1">
+    <img src="aboutimage.jpg" class="/homeimg1">
   </block2-image>
   <block2-text-box>
    <div style="padding:15px;">
@@ -154,18 +154,18 @@ function navigateToServices(){
   <RouterLink class="router-link" to="/gallery">Explore Our Full Gallery!</RouterLink>
   <photo-container>
         <photo-box>
-          <img src="Gallert.jpg" class="imgimg" >
+          <img src="/Gallert.jpg" class="imgimg" >
         </photo-box>
         <photo-box>
-          <img src="Gallert.jpg" class="imgimg">
+          <img src="/Gallert.jpg" class="imgimg">
         </photo-box>
       </photo-container>
       <photo-container>
         <photo-box>
-          <img src="Gallert.jpg" class="imgimg">
+          <img src="/Gallert.jpg" class="imgimg">
         </photo-box>
         <photo-box>
-          <img src="Gallert.jpg" class="imgimg">
+          <img src="/Gallert.jpg" class="imgimg">
         </photo-box>
       </photo-container>
 </block5-container>

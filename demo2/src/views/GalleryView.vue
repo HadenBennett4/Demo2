@@ -4,31 +4,31 @@
       <header-text>Gallery</header-text>
       <gallery-container>
         <photo-box>
-          <img src="Gallert.jpg" class="galleryimg">
+          <img src="/Gallert.jpg" class="galleryimg">
         </photo-box>
         <photo-box>
-          <img src="Gallert.jpg" class="galleryimg">
+          <img src="/Gallert.jpg" class="galleryimg">
         </photo-box>
         <photo-box>
-          <img src="Gallert.jpg" class="galleryimg">
+          <img src="/Gallert.jpg" class="galleryimg">
         </photo-box>
         <photo-box>
-          <img src="Gallert.jpg" class="galleryimg">
+          <img src="/Gallert.jpg" class="galleryimg">
         </photo-box>
         <photo-box>
-          <img src="Gallert.jpg" class="galleryimg">
+          <img src="/Gallert.jpg" class="galleryimg">
         </photo-box>
         <photo-box>
-          <img src="Gallert.jpg" class="galleryimg">
+          <img src="/Gallert.jpg" class="galleryimg">
         </photo-box>
         <photo-box>
-          <img src="Gallert.jpg" class="galleryimg">
+          <img src="/Gallert.jpg" class="galleryimg">
         </photo-box>
         <photo-box>
-          <img src="Gallert.jpg" class="galleryimg">
+          <img src="/Gallert.jpg" class="galleryimg">
         </photo-box>
         <photo-box>
-          <img src="Gallert.jpg" class="galleryimg">
+          <img src="/Gallert.jpg" class="galleryimg">
         </photo-box>
       </gallery-container>
 

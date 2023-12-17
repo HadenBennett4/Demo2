@@ -24,7 +24,7 @@ function isMobile() {
 <template>
   <div class="Services" v-if="!isMobile()">
     <about-image>
-      <img src="stock3.jpg" class="aboutimg" />
+      <img src="/stock3.jpg" class="aboutimg" />
     </about-image>
     <container>
       <h1>We proviced the best services!</h1>
@@ -51,12 +51,12 @@ function isMobile() {
         </ul>
       </box-child>
       <about-image1>
-        <img src="serviceimage.jpg" style="width: 550px;">
+        <img src="/serviceimage.jpg" style="width: 550px;">
       </about-image1>
     </box1>
     <box2>
       <about-image2>
-        <img src="serviceimage2.jpg" style="width: 550px;" />
+        <img src="/serviceimage2.jpg" style="width: 550px;" />
       </about-image2>
       <box-child1>
         <h3>Respite Care</h3>
@@ -85,7 +85,7 @@ function isMobile() {
         </ul>
       </box-child3>
       <about-image3>
-        <img src="serviceimage3.jpg" style="width: 550px;" />
+        <img src="/serviceimage3.jpg" style="width: 550px;" />
       </about-image3>
     </box4>
     <bigbox>
@@ -101,7 +101,7 @@ function isMobile() {
 
   <div class="Services" v-if="isMobile()">
     <about-image>
-      <img src="stock3.jpg" class="aboutimg" />
+      <img src="/stock3.jpg" class="aboutimg" />
     </about-image>
     <container>
       <h1>We proviced the best services!</h1>
@@ -128,7 +128,7 @@ function isMobile() {
         </ul>
       </box-child>
       <about-image1>
-        <img src="serviceimage.jpg" style="width: 325px; margin-left: 30px;">
+        <img src="/serviceimage.jpg" style="width: 325px; margin-left: 30px;">
       </about-image1>
     </box1>
     <box1>
@@ -145,7 +145,7 @@ function isMobile() {
         </ul>
       </box-child>
       <about-image1>
-        <img src="serviceimage2.jpg" style="width: 300px; margin-left: 30px;" />
+        <img src="/serviceimage2.jpg" style="width: 300px; margin-left: 30px;" />
       </about-image1>
     </box1>
 

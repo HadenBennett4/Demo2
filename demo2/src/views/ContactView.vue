@@ -66,7 +66,7 @@ export default defineComponent({
 <template>
   <div class="contact">
  <contact-image>
-      <img src="contact.jpg" class="contactimg"  style="filter: brightness(60%);"/>
+      <img src="/contact.jpg" class="contactimg"  style="filter: brightness(60%);"/>
     </contact-image>
   <container>
     <h1>Contact Us</h1>

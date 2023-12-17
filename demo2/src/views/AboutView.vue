@@ -27,7 +27,7 @@ function isMobile() {
 
     <div class="about">
       <about-image>
-        <img src="stock2.jpg" class="aboutimg" />
+        <img src="/stock2.jpg" class="aboutimg" />
       </about-image>
       <container>
         <h1>About Us</h1>
@@ -80,7 +80,7 @@ function isMobile() {
   <div v-if="!isMobile()">
     <div class="about">
       <about-image>
-        <img src="stock2.jpg" class="aboutimg" />
+        <img src="/stock2.jpg" class="aboutimg" />
       </about-image>
       <container>
         <h1>About Us</h1>
@@ -104,12 +104,12 @@ function isMobile() {
             care and services, and remembering that you are the reason we are here.</p2>
         </box-child>
         <about-image1>
-          <img src="aboutimage.jpg" style="width: 550px;">
+          <img src="/aboutimage.jpg" style="width: 550px;">
         </about-image1>
       </box1>
       <box2>
         <about-image2>
-          <img src="aboutimage1.jpg" style="width: 550px;" />
+          <img src="/aboutimage1.jpg" style="width: 550px;" />
         </about-image2>
         <box-child1>
           <h3>Our Vision</h3>

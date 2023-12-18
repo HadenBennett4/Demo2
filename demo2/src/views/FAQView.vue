@@ -57,7 +57,7 @@ function changeShow(i){
           <v-icon  v-else class="question-icon" name="hi-solid-chevron-down" scale="1.5"/>
         </question-block>
         <answer-block v-if="show===true && index===1">
-          This is the answer to your question. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quaerat, voluptatibus quia provident repellendus veritatis cum alias animi dolor rerum porro iusto non vel corporis natus. Ducimus veniam dolores possimus! 
         </answer-block>
 
         <question-block @click="changeShow(2)">
@@ -68,7 +68,7 @@ function changeShow(i){
           <v-icon  v-else class="question-icon" name="hi-solid-chevron-down" scale="1.5"/>
         </question-block>
         <answer-block v-if="show===true && index===2">
-          This is the answer to your question. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quaerat, voluptatibus quia provident repellendus veritatis cum alias animi dolor rerum porro iusto non vel corporis natus. Ducimus veniam dolores possimus! 
         </answer-block>
 
         <question-block @click="changeShow(5)">
@@ -79,7 +79,7 @@ function changeShow(i){
           <v-icon  v-else class="question-icon" name="hi-solid-chevron-down" scale="1.5"/>
         </question-block>
         <answer-block v-if="show===true && index===5">
-          This is the answer to your question. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quaerat, voluptatibus quia provident repellendus veritatis cum alias animi dolor rerum porro iusto non vel corporis natus. Ducimus veniam dolores possimus! 
         </answer-block>
 
         <question-block @click="changeShow(3)">
@@ -90,7 +90,7 @@ function changeShow(i){
           <v-icon  v-else class="question-icon" name="hi-solid-chevron-down" scale="1.5"/>
         </question-block>
         <answer-block v-if="show===true && index===3">
-          This is the answer to your question. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quaerat, voluptatibus quia provident repellendus veritatis cum alias animi dolor rerum porro iusto non vel corporis natus. Ducimus veniam dolores possimus! 
         </answer-block>
 
         <question-block @click="changeShow(4)">
@@ -101,7 +101,7 @@ function changeShow(i){
           <v-icon  v-else class="question-icon" name="hi-solid-chevron-down" scale="1.5"/>
         </question-block>
         <answer-block v-if="show===true && index===4">
-          This is the answer to your question. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quaerat, voluptatibus quia provident repellendus veritatis cum alias animi dolor rerum porro iusto non vel corporis natus. Ducimus veniam dolores possimus! 
         </answer-block> 
       </faq-block>
       </box1>
@@ -118,7 +118,7 @@ function changeShow(i){
           <v-icon  v-else class="question-icon" name="hi-solid-chevron-down" scale="1.5"/>
         </question-block>
         <answer-block v-if="show===true && index===6">
-          This is the answer to your question. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quaerat, voluptatibus quia provident repellendus veritatis cum alias animi dolor rerum porro iusto non vel corporis natus. Ducimus veniam dolores possimus! 
         </answer-block>
         <question-block @click="changeShow(7)">
           <question-text>
@@ -128,7 +128,7 @@ function changeShow(i){
           <v-icon  v-else class="question-icon" name="hi-solid-chevron-down" scale="1.5"/>
         </question-block>
         <answer-block v-if="show===true && index===7">
-          This is the answer to your question. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quaerat, voluptatibus quia provident repellendus veritatis cum alias animi dolor rerum porro iusto non vel corporis natus. Ducimus veniam dolores possimus! 
         </answer-block>
         <question-block @click="changeShow(8)">
           <question-text>
@@ -138,7 +138,7 @@ function changeShow(i){
           <v-icon  v-else class="question-icon" name="hi-solid-chevron-down" scale="1.5"/>
         </question-block>
         <answer-block v-if="show===true && index===8">
-          This is the answer to your question. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quaerat, voluptatibus quia provident repellendus veritatis cum alias animi dolor rerum porro iusto non vel corporis natus. Ducimus veniam dolores possimus! 
         </answer-block>
         <question-block @click="changeShow(9)">
           <question-text>
@@ -148,7 +148,7 @@ function changeShow(i){
           <v-icon  v-else class="question-icon" name="hi-solid-chevron-down" scale="1.5"/>
         </question-block>
         <answer-block v-if="show===true && index===9">
-          This is the answer to your question. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quaerat, voluptatibus quia provident repellendus veritatis cum alias animi dolor rerum porro iusto non vel corporis natus. Ducimus veniam dolores possimus! 
         </answer-block>
         <question-block @click="changeShow(10)">
           <question-text>
@@ -158,7 +158,7 @@ function changeShow(i){
           <v-icon  v-else class="question-icon" name="hi-solid-chevron-down" scale="1.5"/>
         </question-block>
         <answer-block v-if="show===true && index===10">
-          This is the answer to your question. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quaerat, voluptatibus quia provident repellendus veritatis cum alias animi dolor rerum porro iusto non vel corporis natus. Ducimus veniam dolores possimus!
         </answer-block>
         </faq-block>
         <box-child>
@@ -185,7 +185,7 @@ function changeShow(i){
           <v-icon  v-else class="question-icon" name="hi-solid-chevron-down" scale="1.5"/>
         </question-block>
         <answer-block v-if="show===true && index===6">
-          This is the answer to your question. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quaerat, voluptatibus quia provident repellendus veritatis cum alias animi dolor rerum porro iusto non vel corporis natus. Ducimus veniam dolores possimus! 
         </answer-block>
         <question-block @click="changeShow(7)">
           <question-text>
@@ -195,7 +195,7 @@ function changeShow(i){
           <v-icon  v-else class="question-icon" name="hi-solid-chevron-down" scale="1.5"/>
         </question-block>
         <answer-block v-if="show===true && index===7">
-          This is the answer to your question. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quaerat, voluptatibus quia provident repellendus veritatis cum alias animi dolor rerum porro iusto non vel corporis natus. Ducimus veniam dolores possimus! 
         </answer-block>
         <question-block @click="changeShow(8)">
           <question-text>
@@ -205,7 +205,7 @@ function changeShow(i){
           <v-icon  v-else class="question-icon" name="hi-solid-chevron-down" scale="1.5"/>
         </question-block>
         <answer-block v-if="show===true && index===8">
-          This is the answer to your question. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quaerat, voluptatibus quia provident repellendus veritatis cum alias animi dolor rerum porro iusto non vel corporis natus. Ducimus veniam dolores possimus! 
         </answer-block>
         <question-block @click="changeShow(9)">
           <question-text>
@@ -215,7 +215,7 @@ function changeShow(i){
           <v-icon  v-else class="question-icon" name="hi-solid-chevron-down" scale="1.5"/>
         </question-block>
         <answer-block v-if="show===true && index===9">
-          This is the answer to your question. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quaerat, voluptatibus quia provident repellendus veritatis cum alias animi dolor rerum porro iusto non vel corporis natus. Ducimus veniam dolores possimus! 
         </answer-block>
         <question-block @click="changeShow(10)">
           <question-text>
@@ -225,7 +225,7 @@ function changeShow(i){
           <v-icon  v-else class="question-icon" name="hi-solid-chevron-down" scale="1.5"/>
         </question-block>
         <answer-block v-if="show===true && index===10">
-          This is the answer to your question. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quaerat, voluptatibus quia provident repellendus veritatis cum alias animi dolor rerum porro iusto non vel corporis natus. Ducimus veniam dolores possimus!
         </answer-block>
         </faq-block>
       </box1>

@@ -27,27 +27,25 @@ function isMobile() {
       <img src="/stock3.jpg" class="aboutimg" />
     </about-image>
     <container>
-      <h1>We proviced the best services!</h1>
-      <p>More than 30 years of experience</p>
+      <h1>We provide the best services!</h1>
+      <p>Lorem ipsum dolor sit amet.</p>
     </container>
     <box1>
       <box-child>
         <h2>Assisted Living</h2>
-        <p2>Our abilities vary as we become older. We're here to find out what you want to do and to support you in
-          achieving that goal. We'll create a personal care plan that emphasizes your talents and offers the specific
-          assistance you require to lead the life you desire.</p2>
+        <p2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore distinctio iure perferendis dolorem vel. Voluptatem hic qui consequatur aspernatur, et vel impedit iste mollitia rerum?</p2>
         <h6>Assisted Living Services:</h6>
         <ul class="checklist">
-          <li>Assistance with hygiene and personal care</li>
-          <li>Mobility Assistance</li>
-          <li>Health care services coordination</li>
-          <li>Transportation to appointments</li>
-          <li>Medication management</li>
-          <li>Nutricious meals</li>
-          <li>Social activities and outings</li>
-          <li>House keeping</li>
-          <li>Laundry</li>
-          <li>Lawn maintenance and repairs</li>
+          <li>Lorem, ipsum.</li>
+          <li>Lorem.</li>
+          <li>Lorem ipsum dolor sit.</li>
+          <li>Lorem ipsum dolor sit amet.</li>
+          <li>Lorem, ipsum dolor.</li>
+          <li>Lorem, ipsum.</li>
+          <li>Lorem ipsum dolor sit amet.</li>
+          <li>Lorem, ipsum dolor.</li>
+          <li>Lorem</li>
+          <li>Lorem, ipsum dolor.</li>
         </ul>
       </box-child>
       <about-image1>
@@ -60,28 +58,24 @@ function isMobile() {
       </about-image2>
       <box-child1>
         <h3>Respite Care</h3>
-        <p3>Respite care, often known as a short-term stay, is an excellent alternative for seniors who wish to give their
-          regular caregivers a break, rehabilitate from surgery or other medical complications, or test the waters before
-          making us your new home. Our visitors will enjoy the same amenities as our full-time residents. </p3>
+        <p3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, exercitationem tenetur quibusdam aut veniam, quisquam nesciunt quos corrupti modi, esse nihil accusantium impedit praesentium! Deserunt quod autem facilis molestias nihil. </p3>
         <h7>Respite Care Services:</h7>
         <ul class="checklist">
-          <li>Assisting with necessities of daily living</li>
-          <li>Promoting awareness of home safety</li>
-          <li>Maintaing daily routines</li>
+          <li>Lorem ipsum dolor sit.</li>
+          <li>Lorem ipsum dolor sit amet.</li>
+          <li>Lorem, ipsum dolor.</li>
         </ul>
       </box-child1>
     </box2>
     <box4>
       <box-child3>
         <h5>Independant Caregivers</h5>
-        <p5>An independent caregiver gets hired directly by the person's family needing care and has no affiliation with a
-          caregiving agency. They provide the necessary caregiving services and work with the family to determine their
-          loved one's care needs.</p5>
+        <p5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi deserunt eum nemo dolorem doloribus unde beatae, vitae temporibus qui accusamus, distinctio nam debitis alias minima corrupti, ipsam obcaecati voluptatum asperiores?</p5>
         <h8>Independent Caregiving Service:</h8>
         <ul class="checklist">
-          <li>Maintaining a safe and comfortable home enviroment</li>
-          <li>Encouraging socialization and participation in community activities</li>
-          <li>The abilty to provide care across a variety of settings, including group homes and day service programs</li>
+          <li>Lorem ipsum dolor sit.</li>
+          <li>Lorem ipsum dolor sit amet.</li>
+          <li>Lorem, ipsum dolor.</li>
         </ul>
       </box-child3>
       <about-image3>
@@ -104,27 +98,26 @@ function isMobile() {
       <img src="/stock3.jpg" class="aboutimg" />
     </about-image>
     <container>
-      <h1>We proviced the best services!</h1>
-      <p>More than 30 years of experience</p>
+      <h1>We provide the best services!</h1>
+      <p>Lorem ipsum dolor sit amet.
+      </p>
     </container>
     <box1>
       <box-child>
         <h2>Assisted Living</h2>
-        <p2>Our abilities vary as we become older. We're here to find out what you want to do and to support you in
-          achieving that goal. We'll create a personal care plan that emphasizes your talents and offers the specific
-          assistance you require to lead the life you desire.</p2>
+        <p2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit in iure vel quo ullam nulla ipsum doloribus beatae perferendis provident! Ut quod temporibus eum placeat!</p2>
         <h6>Assisted Living Services:</h6>
         <ul class="checklist">
-          <li>Assistance with hygiene and personal care</li>
-          <li>Mobility Assistance</li>
-          <li>Health care services coordination</li>
-          <li>Transportation to appointments</li>
-          <li>Medication management</li>
-          <li>Nutricious meals</li>
-          <li>Social activities and outings</li>
-          <li>House keeping</li>
-          <li>Laundry</li>
-          <li>Lawn maintenance and repairs</li>
+          <li>Lorem, ipsum.</li>
+          <li>Lorem.</li>
+          <li>Lorem ipsum dolor sit.</li>
+          <li>Lorem ipsum dolor sit amet.</li>
+          <li>Lorem, ipsum dolor.</li>
+          <li>Lorem, ipsum.</li>
+          <li>Lorem ipsum dolor sit amet.</li>
+          <li>Lorem, ipsum dolor.</li>
+          <li>Lorem</li>
+          <li>Lorem, ipsum dolor.</li>
         </ul>
       </box-child>
       <about-image1>
@@ -134,14 +127,12 @@ function isMobile() {
     <box1>
       <box-child>
         <h3>Respite Care</h3>
-        <p3>Respite care, often known as a short-term stay, is an excellent alternative for seniors who wish to give their
-          regular caregivers a break, rehabilitate from surgery or other medical complications, or test the waters before
-          making us your new home. Our visitors will enjoy the same amenities as our full-time residents. </p3>
+        <p3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae porro quae eveniet, minima consequuntur cupiditate blanditiis nostrum sit dolor officia enim excepturi tempore libero saepe necessitatibus nemo repellat consectetur beatae. </p3>
         <h7>Respite Care Services:</h7>
         <ul class="checklist">
-          <li>Assisting with necessities of daily living</li>
-          <li>Promoting awareness of home safety</li>
-          <li>Maintaing daily routines</li>
+          <li>Lorem ipsum dolor sit.</li>
+          <li>Lorem ipsum dolor sit amet.</li>
+          <li>Lorem, ipsum dolor.</li>
         </ul>
       </box-child>
       <about-image1>
@@ -152,14 +143,12 @@ function isMobile() {
     <box1>
       <box-child>
         <h5>Independant Caregivers</h5>
-        <p5>An independent caregiver gets hired directly by the person's family needing care and has no affiliation with a
-          caregiving agency. They provide the necessary caregiving services and work with the family to determine their
-          loved one's care needs.</p5>
+        <p5>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus quisquam debitis deleniti nihil! Dignissimos, accusamus consectetur veritatis magni nobis aspernatur corrupti, magnam obcaecati dolore doloremque assumenda ipsam modi molestiae voluptate.</p5>
         <h8>Independent Caregiving Service:</h8>
         <ul class="checklist">
-          <li>Maintaining a safe and comfortable home enviroment</li>
-          <li>Encouraging socialization and participation in community activities</li>
-          <li>The abilty to provide care across a variety of settings, including group homes and day service programs</li>
+          <li>Lorem ipsum dolor sit.</li>
+          <li>Lorem ipsum dolor sit amet.</li>
+          <li>Lorem, ipsum dolor.</li>
         </ul>
       </box-child>
     </box1>
@@ -356,28 +345,35 @@ function isMobile() {
 
   bigbox {
     width: 100.9%;
+    height: 200px;
     background-color: #fbfbfc;
-    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1%;
   }
 
   box3 {
     width: 65%;
+    height: 100%;
     background-color: #968b57;
     display: flex;
     flex-direction: row;
-    height: 100%;
-    margin-bottom: 8%;
-    margin-top: 8%;
-    margin-left: 20%;
+    align-items: center;
+    justify-content: center;
+
     border-radius: 15px;
   }
 
   box-child2 {
-    padding-left: 30%;
+    width: 50%;
+    height: 50%; 
     display: flex;
     flex-direction: column;
-    color: white;
-    padding-bottom: 5%;
+    align-items: center;
+    justify-content: space-around;
+    color: white;  
   }
 
   h4 {
@@ -610,22 +606,26 @@ function isMobile() {
 
   bigbox {
     width: 100.9%;
+    height: 50%;
     background-color: #fbfbfc;
     height: auto;
     margin-top: -1px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1%;
   }
 
   box3 {
     width: 75%;
+    height: 100%;
     background-color: #968b57;
     display: flex;
     flex-direction: row;
-    height: 100%;
-    margin-bottom: 8%;
-    margin-left: 8%;
-    border-radius: 15px;
-    padding: 5%;
-    margin-top: 8%;
+    align-items: center;
+    justify-content: center;
+
   }
 
 
@@ -866,6 +866,7 @@ function isMobile() {
     align-items: center;
     justify-content: center;
     margin-top: -1px;
+    padding-bottom: 1%;
   }
 
   box3 {

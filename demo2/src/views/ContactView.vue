@@ -70,16 +70,16 @@ export default defineComponent({
     </contact-image>
   <container>
     <h1>Contact Us</h1>
-    <p>Keep in touch with us</p>
+    <p>Lorem ipsum dolor sit amet.</p>
     <box2>
       <a href="https://www.nationalgeographic.com/" target="_blank" >
         <v-icon hover animation="float" animationSpeed="slow" name="hi-mail" fill="white" class="icons"/> 
         </a>
-        <p1>Hello@duckweedmarketing.com</p1>
+        <p1>hello@duckweedmarketing.com</p1>
         <a href="https://www.nationalgeographic.com/" target="_blank" >
           <v-icon hover animation="float" animationSpeed="slow" name="bi-telephone-fill" fill="white" class="icons"/>
           </a>
-          <p1>(469) 207-6194</p1>
+          <p1>(469) 734-7027</p1>
     </box2>
 </container>
 <box>

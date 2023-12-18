@@ -14,7 +14,7 @@ function navigateToServices(){
 
     <home-container>
     <header-text>
-      UNITED<br> FAMILY
+      DUCKWEED<br> MARKETING
     </header-text>
     <sub-header-text>
       PERFECT PLACE FOR YOUR LOVED ONE
@@ -69,7 +69,7 @@ function navigateToServices(){
     <underline2></underline2>
   </block1-text-box>
   <block1-paragraph-box>
-   <div style="padding:2%;align-self: center;">United Family is guided by more than 30 years of experience and a continuous commitment to providing seniors with the care they deserve. We are pleased to serve the lovely city of Forney, Texas, and the surrounding areas with top-notch assisted living and short-term care services.</div> 
+   <div style="padding:2%;align-self: center;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero voluptas, repellendus odio dignissimos aut placeat? Eum tenetur maiores nostrum nobis.</div> 
   </block1-paragraph-box>
 </block1>
 <block2>
@@ -78,11 +78,11 @@ function navigateToServices(){
   </block2-image>
   <block2-text-box>
    <div style="padding:15px;">
-    Our team of professionals is dedicated to meeting the needs of our residents by using the skills and abilities that God has given them.
+   Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto maiores autem iure accusamus atque adipisci libero, tempore commodi veritatis labore.
 
-<br><br>United Family is an Assisted Living residency that offers a secure, friendly, and loving environment that feels like home. Our team of professionals who serve and support our residents is what sets us apart.
+<br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, vero rem! Rerum odit necessitatibus distinctio hic, maxime beatae numquam quas expedita nisi adipisci reprehenderit sed, dignissimos, ea doloremque at cumque!
 
-<br><br>Each team member is carefully selected and trained in our culture and beliefs. Customer service, dedication to dignity, and kindest towards our residents are the three main pillars of the system under which we work.
+<br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et eius autem perspiciatis culpa praesentium debitis, illo quis deleniti neque quasi nam quos enim iure quaerat ullam voluptates laudantium non tempora.
    </div>
   </block2-text-box>
 </block2>
@@ -113,7 +113,7 @@ function navigateToServices(){
 <block4-bheader>Excellence</block4-bheader>
 <br>
 <br>
-<block4-p>Providing the highest quality in the respite care services that we deliver to meet and exceed the needs of our clients.</block4-p>
+<block4-p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod veniam aliquid omnis consequuntur similique beatae voluptatum alias pariatur a iusto.</block4-p>
 <br>
 <br>
 <br>
@@ -121,7 +121,7 @@ function navigateToServices(){
 <block4-bheader>Integrity</block4-bheader>
 <br>
 <br>
-<block4-p>The assurance that all of our dealings with clients and their families, physicians, and others with whom we do business will be filled with respect, fairness and honesty.</block4-p>
+<block4-p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti beatae iure cumque officiis temporibus necessitatibus reprehenderit voluptate voluptates. Quidem, consequatur.</block4-p>
 <br>
 <br>
 <br>
@@ -129,13 +129,13 @@ function navigateToServices(){
 <block4-bheader>Service</block4-bheader>
 <br>
 <br>
-<block4-p>A pledge to offer appropriate care service to all persons, regardless of socioeconomic status, race or religion.</block4-p>
+<block4-p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error ullam quibusdam velit laudantium explicabo neque! Accusamus, quia accusantium.</block4-p>
 </block4-containerbaby>
 <block4-containerbaby>
 <block4-bheader>Flexibility</block4-bheader>
 <br>
 <br>
-<block4-p>Penness to the change that accompanies the exploration of new ways to deliver care to our clients.</block4-p>
+<block4-p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde molestiae natus atque consectetur numquam.</block4-p>
 <br>
 <br>
 <br>
@@ -143,14 +143,14 @@ function navigateToServices(){
 <block4-bheader>Responsiveness</block4-bheader>
 <br>
 <br>
-<block4-p>A commitment to work with others to identify the care requirements and needs of our community and to strive to meet these needs.</block4-p>
+<block4-p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur atque quis beatae voluptate molestiae.</block4-p>
 </block4-containerbaby>
 </block4-container>
 </block4>
 
 <block5>
 <block5-container>
-  <block5-header>Know More About United Family</block5-header>
+  <block5-header>Know More About Duckweed</block5-header>
   <RouterLink class="router-link" to="/gallery">Explore Our Full Gallery!</RouterLink>
   <photo-container>
         <photo-box>

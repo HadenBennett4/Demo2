@@ -32,7 +32,7 @@ function isMobile() {
 <template>
   <root v-if="!isMobile()">
   <header>
-      <img class="header-image" src="../src/assets/headerimage.jpg">
+      <img class="header-image" src="/duck.png">
       <nav>
         <RouterLink class="router-link" to="/">Home</RouterLink>
         <RouterLink class="router-link" to="/about">About</RouterLink>
@@ -43,20 +43,20 @@ function isMobile() {
       </nav>
       <boxy>
         <a href="https://www.nationalgeographic.com/" target="_blank" class="icons">
-          <v-icon name="bi-facebook" scale="1" fill="black" />
+          <v-icon name="bi-facebook" scale="2" fill="black" />
           </a>
         <a href="https://www.nationalgeographic.com/" target="_blank" class="icons">
-          <v-icon name="bi-linkedin" scale="1" fill="black"/>
+          <v-icon name="bi-linkedin" scale="2" fill="black"/>
           </a>
         </boxy>
-        <p>(420) 696-6969</p>
+        <p>(469) 734-7027</p>
 
   </header>
 <RouterView/>
 <footer>
   <footer1>
   <box>
-    <h2>UNITED FAMILY</h2>
+    <h2>DUCKWEED MARKETING</h2>
     <p2>PROVIDE PERFECT CARE FOR YOUR LOVED ONE</p2>
     <tinybox>
     <a href="https://www.nationalgeographic.com/" target="_blank" class="iconic">
@@ -87,7 +87,7 @@ function isMobile() {
    <h4>Get in Touch</h4>
    <smallbox>
    <v-icon hover animation="float" animationSpeed="slow" name="bi-telephone-fill" scale="1.5" fill="white" class="icon"/>
-   <p3>(696) 420-6969</p3>
+   <p3>(469) 734- 7027</p3>
   </smallbox>
   <br>
   <smallbox>
@@ -113,7 +113,7 @@ function isMobile() {
   <footer>
   <footer1>
   <box>
-    <h2>UNITED FAMILY</h2>
+    <h2>DUCKWEED MARKETING</h2>
     <p2>PROVIDE PERFECT CARE FOR YOUR LOVED ONE</p2>
     <tinybox>
     <a href="https://www.nationalgeographic.com/" target="_blank" class="iconic">
@@ -157,7 +157,7 @@ function isMobile() {
         <RouterLink @click="setShowNavBar()" class="router-link" to="/contact">Contact</RouterLink>
         <div class="router-link" style="margin-top:20%
         ">Call us now:</div>
-      <call-now-button>(469)734-7027</call-now-button>
+      <call-now-button>(469) 734-7027</call-now-button>
       </nav>
           <v-icon class="nav-bar-button2" @click="setShowNavBar()" name="bi-x-lg" scale="2" fill="white" />
     </div>
@@ -211,7 +211,7 @@ nav a.router-link-exact-active {
 }
 
 .header-image {
-  width:145px;
+  width:100px;
   height:auto;
 }
 

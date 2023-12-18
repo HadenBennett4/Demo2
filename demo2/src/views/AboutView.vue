@@ -31,14 +31,14 @@ function isMobile() {
       </about-image>
       <container>
         <h1>About Us</h1>
-        <p>Bring you care with over 30 years of experience</p>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
       </container>
       <box>
           <v-icon name="bi-facebook" scale="2" fill="white" class="icons"/>
           <p1>Over 30 years of healthcare expirience</p1>
-          <v-icon name="bi-linkedin" scale="2" fill="white" class="icons"/>
+          <v-icon name="bi-instagram" scale="2" fill="white" class="icons"/>
           <p1>Quality Care Services</p1>
-          <v-icon name="bi-facebook" scale="2" fill="white" class="icons"/>
+          <v-icon name="bi-twitter" scale="2" fill="white" class="icons"/>
           <p1>Highly expirenced employees</p1>
       </box>
       <box1>
@@ -46,9 +46,7 @@ function isMobile() {
         <h2>Our Mission Statement</h2>
         <underline></underline>
         <br>
-        <p2> Working together to create a sense of community, our dedicated and compassionate staff will strive to exceed
-          your expections. We aim to make a difference in the lives of those we serve by providing exceptional care and
-          services, and remembering that you are the reason we are here.</p2>
+        <p2> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo voluptas quas distinctio, in atque ex cumque suscipit architecto eius delectus quod aliquam rem. Maxime vitae nisi labore magnam unde. Molestias?</p2>
       </box-child>
       </box1>
 
@@ -57,10 +55,8 @@ function isMobile() {
           <h3>Our Vision</h3>
           <underline2></underline2>
           <br>
-          <p3>Our strategic vision is to create and sustain a leading high-quality service that allows individuals to live
-            as independently as possible. <br><br>
-            We personalize our services to meet your situation with respect, efficiency, and compassion, fostering
-            independence, preserving dignity and improving the quality of life. </p3>
+          <p3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia modi ex magni! Consequuntur illum totam aliquid sapiente odit. Numquam, animi!<br><br>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur quidem minus fugiat quasi praesentium architecto modi voluptates reprehenderit sit dignissimos. </p3>
         </box-child1>
       </box2>
       <bigbox>
@@ -84,14 +80,14 @@ function isMobile() {
       </about-image>
       <container>
         <h1>About Us</h1>
-        <p>Bring you care with over 30 years of experience</p>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
       </container>
       <box>
           <v-icon name="bi-facebook" scale="3" fill="white" class="icons"/>
         <p1>Over 30 years of healthcare expirience</p1>
-          <v-icon name="bi-linkedin" scale="3" fill="white" class="icons"/>
+          <v-icon name="bi-instagram" scale="3" fill="white" class="icons"/>
         <p1>Quality Care Services</p1>
-          <v-icon name="bi-facebook" scale="3" fill="white" class="icons"/>
+          <v-icon name="bi-twitter" scale="3" fill="white" class="icons"/>
         <p1>Highly expirenced employees</p1>
       </box>
       <box1>
@@ -99,9 +95,7 @@ function isMobile() {
           <h2>Our Mission Statement</h2>
           <underline></underline>
           <br>
-          <p2> Working together to create a sense of community, our dedicated and compassionate staff will strive to
-            exceed your expections. We aim to make a difference in the lives of those we serve by providing exceptional
-            care and services, and remembering that you are the reason we are here.</p2>
+          <p2> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, quam facilis! Voluptatum animi accusamus assumenda magnam dolorum earum repellat doloribus possimus provident debitis sequi beatae blanditiis, dignissimos veritatis, saepe enim.</p2>
         </box-child>
         <about-image1>
           <img src="/aboutimage.jpg" style="width: 550px;">
@@ -115,10 +109,8 @@ function isMobile() {
           <h3>Our Vision</h3>
           <underline2></underline2>
           <br>
-          <p3>Our strategic vision is to create and sustain a leading high-quality service that allows individuals to live
-            as independently as possible. <br><br>
-            We personalize our services to meet your situation with respect, efficiency, and compassion, fostering
-            independence, preserving dignity and improving the quality of life. </p3>
+          <p3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam quae iure excepturi quas nobis tempore facilis, ullam dolore animi provident.<br><br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil unde nulla officiis voluptates perferendis fuga accusamus vitae ex temporibus sint. </p3>
         </box-child1>
       </box2>
       <bigbox>
